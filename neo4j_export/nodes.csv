@@ -1,147 +1,147 @@
-id:ID,type:LABEL,name,entity_type,report_index,document_id,annotated_items_count,total_triplets,category
-report_0,MedicalReport,,,0,,0,0,
-feature_chronic_metabolic_failure,MedicalFeature,chronic metabolic failure,,,,,,Chronic Condition
-entity_diabetes_mellitus_type_2_0,MedicalEntity,Diabetes mellitus type 2,Disease,,,,,
-entity_metabolic_disorder_1,MedicalEntity,metabolic disorder,Entity,,,,,
-feature_history_of_allergy,MedicalFeature,history of allergy,,,,,,Medical History
-entity_allergies_2,MedicalEntity,ALLERGIES,Entity,,,,,
-entity_none_known_3,MedicalEntity,none known,Entity,,,,,
-feature_poly_pharmacological_therapy,MedicalFeature,poly-pharmacological therapy,,,,,,Treatment
-entity_therapy_4,MedicalEntity,Therapy,Medical Concept,,,,,
-entity_multiple_medications_5,MedicalEntity,multiple medications,Entity,,,,,
-feature_antihypertensive_therapy,MedicalFeature,antihypertensive therapy,,,,,,Treatment
-entity_therapy_6,MedicalEntity,Therapy,Medical Concept,,,,,
-entity_iperten_7,MedicalEntity,iperten,Entity,,,,,
-feature_cardiovascular_diseases,MedicalFeature,cardiovascular diseases,,,,,,Disease
-entity_past_medical_history_8,MedicalEntity,Past Medical History,Entity,,,,,
-entity_cad_9,MedicalEntity,CAD,Disease,,,,,
-feature_level_of_consciousness,MedicalFeature,level of consciousness,,,,,,General
-entity_patient_10,MedicalEntity,Patient,Medical Concept,,,,,
-entity_conscious_11,MedicalEntity,conscious,Entity,,,,,
-feature_respiratory_rate,MedicalFeature,respiratory rate,,,,,,Vital Sign
-entity_rf_12,MedicalEntity,RF,Vital Sign,,,,,
-entity_14_apm_13,MedicalEntity,14 apm,Vital Sign,,,,,
-feature_heart_rate,MedicalFeature,heart rate,,,,,,Vital Sign
-entity_hr_14,MedicalEntity,HR,Vital Sign,,,,,
-entity_80_bpm_15,MedicalEntity,80 bpm,Vital Sign,,,,,
-feature_blood_pressure,MedicalFeature,blood pressure,,,,,,Vital Sign
-entity_bp_16,MedicalEntity,BP,Vital Sign,,,,,
-entity_120_80_mm_hg_17,MedicalEntity,120/80 mm/hg,Entity,,,,,
-feature_head_or_other_districts_trauma,MedicalFeature,head or other districts trauma,,,,,,Injury
-entity_head_18,MedicalEntity,Head,Entity,,,,,
-entity_occipital_region_19,MedicalEntity,occipital region,Entity,,,,,
-feature_spo2,MedicalFeature,spo2,,,,,,General
-entity_spo2_20,MedicalEntity,SpO2,Vital Sign,,,,,
-entity_99__21,MedicalEntity,99%,Vital Sign,,,,,
-feature_agitation,MedicalFeature,agitation,,,,,,General
-entity_patient_22,MedicalEntity,Patient,Medical Concept,,,,,
-entity_agitated_23,MedicalEntity,agitated,Entity,,,,,
-report_1,MedicalReport,,,1,,0,0,
-feature_active_neoplasia,MedicalFeature,active neoplasia,,,,,,General
-entity_prostate_cancer_excision_24,MedicalEntity,prostate cancer excision,Disease,,,,,
-entity_therapy_25,MedicalEntity,therapy,Medical Concept,,,,,
-entity_allergy_26,MedicalEntity,allergy,Entity,,,,,
-entity_insect_venom_27,MedicalEntity,insect venom,Diagnostic Procedure,,,,,
-entity_hypertensive_28,MedicalEntity,hypertensive,Entity,,,,,
-entity_therapy_29,MedicalEntity,therapy,Medical Concept,,,,,
-feature_hemoglobin,MedicalFeature,hemoglobin,,,,,,General
-entity_hgt_30,MedicalEntity,HGT,Entity,,,,,
-entity_78_31,MedicalEntity,78,Entity,,,,,
-feature_c_reactive_protein,MedicalFeature,c-reactive protein,,,,,,General
-entity_crp_32,MedicalEntity,CRP,Entity,,,,,
-entity_nothing_33,MedicalEntity,nothing,Entity,,,,,
-feature_brain_ct_scan__any_abnormality,MedicalFeature,"brain ct scan, any abnormality",,,,,,Imaging
-entity_ct_34,MedicalEntity,CT,Diagnostic Procedure,,,,,
-entity_not_significant_35,MedicalEntity,not significant,Entity,,,,,
-report_2,MedicalReport,,,2,,0,0,
-feature_history_of_recent_trauma,MedicalFeature,history of recent trauma,,,,,,Medical History
-entity_patient_36,MedicalEntity,Patient,Medical Concept,,,,,
-entity_left_knee_injury_37,MedicalEntity,left knee injury,Entity,,,,,
-entity_patient_38,MedicalEntity,Patient,Medical Concept,,,,,
-entity_arterial_hypertension_39,MedicalEntity,arterial hypertension,Disease,,,,,
-report_3,MedicalReport,,,3,,0,0,
-entity_hyperthyroidism_40,MedicalEntity,Hyperthyroidism,Entity,,,,,
-entity_metabolic_failure_41,MedicalEntity,metabolic failure,Entity,,,,,
-entity_allergies_42,MedicalEntity,Allergies,Entity,,,,,
-entity_no_known_drug_allergies_43,MedicalEntity,no known drug allergies,Entity,,,,,
-feature_anticoagulants_or_antiplatelet_drug_therapy,MedicalFeature,anticoagulants or antiplatelet drug therapy,,,,,,Treatment
-entity_warfarin_44,MedicalEntity,warfarin,Vital Sign,,,,,
-entity_therapy_45,MedicalEntity,therapy,Medical Concept,,,,,
-entity_therapy_46,MedicalEntity,therapy,Medical Concept,,,,,
-entity_warfarin__asa__aldactone__bisoprolol__lansoprazole_47,MedicalEntity,"warfarin, ASA, aldactone, bisoprolol, lansoprazole, pregabalin, Micardis plus",Vital Sign,,,,,
-feature_diffuse_vascular_disease,MedicalFeature,diffuse vascular disease,,,,,,Disease
-entity_arterial_hypertension_48,MedicalEntity,Arterial hypertension,Disease,,,,,
-entity_vascular_disease_49,MedicalEntity,vascular disease,Entity,,,,,
-entity_micardis_plus_50,MedicalEntity,Micardis plus,Entity,,,,,
-entity_therapy_51,MedicalEntity,therapy,Medical Concept,,,,,
-entity_arterial_hypertension_52,MedicalEntity,Arterial hypertension,Disease,,,,,
-entity_condition_53,MedicalEntity,condition,Entity,,,,,
-report_4,MedicalReport,,,4,,0,0,
-entity_adenocarcinoma_of_the_rectum_54,MedicalEntity,adenocarcinoma of the rectum,Diagnostic Procedure,,,,,
-entity_folfox_chemotherapy_55,MedicalEntity,FOLFOX chemotherapy,Entity,,,,,
-entity_dabigatran_56,MedicalEntity,dabigatran,Entity,,,,,
-entity_af_57,MedicalEntity,AF,Entity,,,,,
-entity_losartan_58,MedicalEntity,losartan,Entity,,,,,
-entity_hypertension_59,MedicalEntity,hypertension,Disease,,,,,
-entity_losartan_60,MedicalEntity,losartan,Entity,,,,,
-entity_hypertension_61,MedicalEntity,hypertension,Disease,,,,,
-entity_cad_62,MedicalEntity,CAD,Disease,,,,,
-entity_coronary_angiography_63,MedicalEntity,coronary angiography,Entity,,,,,
-entity_hr_64,MedicalEntity,HR,Vital Sign,,,,,
-entity_89_65,MedicalEntity,89,Entity,,,,,
-entity_bp_66,MedicalEntity,BP,Vital Sign,,,,,
-entity_160_90_mmhg_67,MedicalEntity,160/90 mmHg,Entity,,,,,
-entity_so2_68,MedicalEntity,SO2,Entity,,,,,
-entity_96__69,MedicalEntity,96%,Vital Sign,,,,,
-feature_presence_of_dyspnea,MedicalFeature,presence of dyspnea,,,,,,General
-entity_dyspnea_70,MedicalEntity,dyspnea,Entity,,,,,
-entity_exertion_71,MedicalEntity,exertion,Entity,,,,,
-feature_ecg__any_abnormality,MedicalFeature,"ecg, any abnormality",,,,,,General
-entity_af_72,MedicalEntity,AF,Entity,,,,,
-entity_cardiological_evaluation_73,MedicalEntity,cardiological evaluation,Entity,,,,,
-feature_creatinine,MedicalFeature,creatinine,,,,,,General
-entity_creat_74,MedicalEntity,creat,Entity,,,,,
-entity_1_6_mg_dl_75,MedicalEntity,1.6 mg/dl,Dosage,,,,,
-feature_cardiac_ultrasound__any_abnormality,MedicalFeature,"cardiac ultrasound, any abnormality",,,,,,General
-entity_pericardial_effusion_76,MedicalEntity,pericardial effusion,Entity,,,,,
-entity_echocardiogram_77,MedicalEntity,echocardiogram,Entity,,,,,
-report_5,MedicalReport,,,5,,0,0,
-report_6,MedicalReport,,,6,,0,0,
-report_7,MedicalReport,,,7,,0,0,
-entity_patient_78,MedicalEntity,patient,Medical Concept,,,,,
-entity_alert_79,MedicalEntity,alert,Entity,,,,,
-entity_patient_80,MedicalEntity,patient,Medical Concept,,,,,
-entity_oriented_81,MedicalEntity,oriented,Entity,,,,,
-feature_body_temperature,MedicalFeature,body temperature,,,,,,General
-entity_patient_82,MedicalEntity,patient,Medical Concept,,,,,
-entity_no_fever_83,MedicalEntity,no fever,Entity,,,,,
-entity_hr_84,MedicalEntity,HR,Vital Sign,,,,,
-entity_64_85,MedicalEntity,64,Entity,,,,,
-entity_bp_86,MedicalEntity,BP,Vital Sign,,,,,
-entity_131_84_87,MedicalEntity,131/84,Entity,,,,,
-entity_spo2_88,MedicalEntity,SpO2,Vital Sign,,,,,
-entity_97__89,MedicalEntity,97%,Vital Sign,,,,,
-report_8,MedicalReport,,,8,,0,0,
-entity_alert_90,MedicalEntity,Alert,Entity,,,,,
-entity_oriented_91,MedicalEntity,oriented,Entity,,,,,
-entity_rf_92,MedicalEntity,RF,Vital Sign,,,,,
-entity_18_apm_93,MedicalEntity,18 apm,Vital Sign,,,,,
-entity_temp_94,MedicalEntity,Temp,Entity,,,,,
-entity_36_8_95,MedicalEntity,36.8,Entity,,,,,
-entity_hr_96,MedicalEntity,HR,Vital Sign,,,,,
-entity_78r_bpm_97,MedicalEntity,78r bpm,Vital Sign,,,,,
-entity_bp_98,MedicalEntity,BP,Vital Sign,,,,,
-entity_150_80_mmhg_99,MedicalEntity,150/80 mmHg,Entity,,,,,
-entity_spo2_100,MedicalEntity,SpO2,Vital Sign,,,,,
-entity_96__101,MedicalEntity,96%,Vital Sign,,,,,
-report_9,MedicalReport,,,9,,0,0,
-entity_patient_102,MedicalEntity,Patient,Medical Concept,,,,,
-entity_time_place_103,MedicalEntity,time/place,Entity,,,,,
-entity_body_temperature_104,MedicalEntity,Body Temperature,Entity,,,,,
-entity_37_5_c_105,MedicalEntity,37.5°C,Entity,,,,,
-entity_heart_rate_106,MedicalEntity,Heart Rate,Entity,,,,,
-entity_tachycardic_107,MedicalEntity,tachycardic,Entity,,,,,
-entity_blood_pressure_108,MedicalEntity,Blood Pressure,Entity,,,,,
-entity_130_90_mmhg_109,MedicalEntity,130/90 mmHg,Entity,,,,,
-entity_spo2_110,MedicalEntity,SpO2,Vital Sign,,,,,
-entity_97__111,MedicalEntity,97%,Vital Sign,,,,,
+"id:ID","type:LABEL","name","entity_type","report_index","document_id","annotated_items_count","total_triplets","category"
+"report_0","MedicalReport","","","0","","0","0",""
+"feature_chronic_metabolic_failure","MedicalFeature","chronic metabolic failure","","","","","","Chronic Condition"
+"entity_diabetes_mellitus_type_2_0","MedicalEntity","Diabetes mellitus type 2","Disease","","","","",""
+"entity_metabolic_disorder_1","MedicalEntity","metabolic disorder","Entity","","","","",""
+"feature_history_of_allergy","MedicalFeature","history of allergy","","","","","","Medical History"
+"entity_allergies_2","MedicalEntity","ALLERGIES","Entity","","","","",""
+"entity_none_known_3","MedicalEntity","none known","Entity","","","","",""
+"feature_poly_pharmacological_therapy","MedicalFeature","poly-pharmacological therapy","","","","","","Treatment"
+"entity_therapy_4","MedicalEntity","Therapy","Medical Concept","","","","",""
+"entity_multiple_medications_5","MedicalEntity","multiple medications","Entity","","","","",""
+"feature_antihypertensive_therapy","MedicalFeature","antihypertensive therapy","","","","","","Treatment"
+"entity_therapy_6","MedicalEntity","Therapy","Medical Concept","","","","",""
+"entity_iperten_7","MedicalEntity","iperten","Entity","","","","",""
+"feature_cardiovascular_diseases","MedicalFeature","cardiovascular diseases","","","","","","Disease"
+"entity_past_medical_history_8","MedicalEntity","Past Medical History","Entity","","","","",""
+"entity_cad_9","MedicalEntity","CAD","Disease","","","","",""
+"feature_level_of_consciousness","MedicalFeature","level of consciousness","","","","","","General"
+"entity_patient_10","MedicalEntity","Patient","Medical Concept","","","","",""
+"entity_conscious_11","MedicalEntity","conscious","Entity","","","","",""
+"feature_respiratory_rate","MedicalFeature","respiratory rate","","","","","","Vital Sign"
+"entity_rf_12","MedicalEntity","RF","Vital Sign","","","","",""
+"entity_14_apm_13","MedicalEntity","14 apm","Vital Sign","","","","",""
+"feature_heart_rate","MedicalFeature","heart rate","","","","","","Vital Sign"
+"entity_hr_14","MedicalEntity","HR","Vital Sign","","","","",""
+"entity_80_bpm_15","MedicalEntity","80 bpm","Vital Sign","","","","",""
+"feature_blood_pressure","MedicalFeature","blood pressure","","","","","","Vital Sign"
+"entity_bp_16","MedicalEntity","BP","Vital Sign","","","","",""
+"entity_120_80_mm_hg_17","MedicalEntity","120/80 mm/hg","Entity","","","","",""
+"feature_head_or_other_districts_trauma","MedicalFeature","head or other districts trauma","","","","","","Injury"
+"entity_head_18","MedicalEntity","Head","Entity","","","","",""
+"entity_occipital_region_19","MedicalEntity","occipital region","Entity","","","","",""
+"feature_spo2","MedicalFeature","spo2","","","","","","General"
+"entity_spo2_20","MedicalEntity","SpO2","Vital Sign","","","","",""
+"entity_99__21","MedicalEntity","99%","Vital Sign","","","","",""
+"feature_agitation","MedicalFeature","agitation","","","","","","General"
+"entity_patient_22","MedicalEntity","Patient","Medical Concept","","","","",""
+"entity_agitated_23","MedicalEntity","agitated","Entity","","","","",""
+"report_1","MedicalReport","","","1","","0","0",""
+"feature_active_neoplasia","MedicalFeature","active neoplasia","","","","","","General"
+"entity_prostate_cancer_excision_24","MedicalEntity","prostate cancer excision","Disease","","","","",""
+"entity_therapy_25","MedicalEntity","therapy","Medical Concept","","","","",""
+"entity_allergy_26","MedicalEntity","allergy","Entity","","","","",""
+"entity_insect_venom_27","MedicalEntity","insect venom","Diagnostic Procedure","","","","",""
+"entity_hypertensive_28","MedicalEntity","hypertensive","Entity","","","","",""
+"entity_therapy_29","MedicalEntity","therapy","Medical Concept","","","","",""
+"feature_hemoglobin","MedicalFeature","hemoglobin","","","","","","General"
+"entity_hgt_30","MedicalEntity","HGT","Entity","","","","",""
+"entity_78_31","MedicalEntity","78","Entity","","","","",""
+"feature_c_reactive_protein","MedicalFeature","c-reactive protein","","","","","","General"
+"entity_crp_32","MedicalEntity","CRP","Entity","","","","",""
+"entity_nothing_33","MedicalEntity","nothing","Entity","","","","",""
+"feature_brain_ct_scan__any_abnormality","MedicalFeature","brain ct scan, any abnormality","","","","","","Imaging"
+"entity_ct_34","MedicalEntity","CT","Diagnostic Procedure","","","","",""
+"entity_not_significant_35","MedicalEntity","not significant","Entity","","","","",""
+"report_2","MedicalReport","","","2","","0","0",""
+"feature_history_of_recent_trauma","MedicalFeature","history of recent trauma","","","","","","Medical History"
+"entity_patient_36","MedicalEntity","Patient","Medical Concept","","","","",""
+"entity_left_knee_injury_37","MedicalEntity","left knee injury","Entity","","","","",""
+"entity_patient_38","MedicalEntity","Patient","Medical Concept","","","","",""
+"entity_arterial_hypertension_39","MedicalEntity","arterial hypertension","Disease","","","","",""
+"report_3","MedicalReport","","","3","","0","0",""
+"entity_hyperthyroidism_40","MedicalEntity","Hyperthyroidism","Entity","","","","",""
+"entity_metabolic_failure_41","MedicalEntity","metabolic failure","Entity","","","","",""
+"entity_allergies_42","MedicalEntity","Allergies","Entity","","","","",""
+"entity_no_known_drug_allergies_43","MedicalEntity","no known drug allergies","Entity","","","","",""
+"feature_anticoagulants_or_antiplatelet_drug_therapy","MedicalFeature","anticoagulants or antiplatelet drug therapy","","","","","","Treatment"
+"entity_warfarin_44","MedicalEntity","warfarin","Vital Sign","","","","",""
+"entity_therapy_45","MedicalEntity","therapy","Medical Concept","","","","",""
+"entity_therapy_46","MedicalEntity","therapy","Medical Concept","","","","",""
+"entity_warfarin__asa__aldactone__bisoprolol__lansoprazole_47","MedicalEntity","warfarin, ASA, aldactone, bisoprolol, lansoprazole, pregabalin, Micardis plus","Vital Sign","","","","",""
+"feature_diffuse_vascular_disease","MedicalFeature","diffuse vascular disease","","","","","","Disease"
+"entity_arterial_hypertension_48","MedicalEntity","Arterial hypertension","Disease","","","","",""
+"entity_vascular_disease_49","MedicalEntity","vascular disease","Entity","","","","",""
+"entity_micardis_plus_50","MedicalEntity","Micardis plus","Entity","","","","",""
+"entity_therapy_51","MedicalEntity","therapy","Medical Concept","","","","",""
+"entity_arterial_hypertension_52","MedicalEntity","Arterial hypertension","Disease","","","","",""
+"entity_condition_53","MedicalEntity","condition","Entity","","","","",""
+"report_4","MedicalReport","","","4","","0","0",""
+"entity_adenocarcinoma_of_the_rectum_54","MedicalEntity","adenocarcinoma of the rectum","Diagnostic Procedure","","","","",""
+"entity_folfox_chemotherapy_55","MedicalEntity","FOLFOX chemotherapy","Entity","","","","",""
+"entity_dabigatran_56","MedicalEntity","dabigatran","Entity","","","","",""
+"entity_af_57","MedicalEntity","AF","Entity","","","","",""
+"entity_losartan_58","MedicalEntity","losartan","Entity","","","","",""
+"entity_hypertension_59","MedicalEntity","hypertension","Disease","","","","",""
+"entity_losartan_60","MedicalEntity","losartan","Entity","","","","",""
+"entity_hypertension_61","MedicalEntity","hypertension","Disease","","","","",""
+"entity_cad_62","MedicalEntity","CAD","Disease","","","","",""
+"entity_coronary_angiography_63","MedicalEntity","coronary angiography","Entity","","","","",""
+"entity_hr_64","MedicalEntity","HR","Vital Sign","","","","",""
+"entity_89_65","MedicalEntity","89","Entity","","","","",""
+"entity_bp_66","MedicalEntity","BP","Vital Sign","","","","",""
+"entity_160_90_mmhg_67","MedicalEntity","160/90 mmHg","Entity","","","","",""
+"entity_so2_68","MedicalEntity","SO2","Entity","","","","",""
+"entity_96__69","MedicalEntity","96%","Vital Sign","","","","",""
+"feature_presence_of_dyspnea","MedicalFeature","presence of dyspnea","","","","","","General"
+"entity_dyspnea_70","MedicalEntity","dyspnea","Entity","","","","",""
+"entity_exertion_71","MedicalEntity","exertion","Entity","","","","",""
+"feature_ecg__any_abnormality","MedicalFeature","ecg, any abnormality","","","","","","General"
+"entity_af_72","MedicalEntity","AF","Entity","","","","",""
+"entity_cardiological_evaluation_73","MedicalEntity","cardiological evaluation","Entity","","","","",""
+"feature_creatinine","MedicalFeature","creatinine","","","","","","General"
+"entity_creat_74","MedicalEntity","creat","Entity","","","","",""
+"entity_1_6_mg_dl_75","MedicalEntity","1.6 mg/dl","Dosage","","","","",""
+"feature_cardiac_ultrasound__any_abnormality","MedicalFeature","cardiac ultrasound, any abnormality","","","","","","General"
+"entity_pericardial_effusion_76","MedicalEntity","pericardial effusion","Entity","","","","",""
+"entity_echocardiogram_77","MedicalEntity","echocardiogram","Entity","","","","",""
+"report_5","MedicalReport","","","5","","0","0",""
+"report_6","MedicalReport","","","6","","0","0",""
+"report_7","MedicalReport","","","7","","0","0",""
+"entity_patient_78","MedicalEntity","patient","Medical Concept","","","","",""
+"entity_alert_79","MedicalEntity","alert","Entity","","","","",""
+"entity_patient_80","MedicalEntity","patient","Medical Concept","","","","",""
+"entity_oriented_81","MedicalEntity","oriented","Entity","","","","",""
+"feature_body_temperature","MedicalFeature","body temperature","","","","","","General"
+"entity_patient_82","MedicalEntity","patient","Medical Concept","","","","",""
+"entity_no_fever_83","MedicalEntity","no fever","Entity","","","","",""
+"entity_hr_84","MedicalEntity","HR","Vital Sign","","","","",""
+"entity_64_85","MedicalEntity","64","Entity","","","","",""
+"entity_bp_86","MedicalEntity","BP","Vital Sign","","","","",""
+"entity_131_84_87","MedicalEntity","131/84","Entity","","","","",""
+"entity_spo2_88","MedicalEntity","SpO2","Vital Sign","","","","",""
+"entity_97__89","MedicalEntity","97%","Vital Sign","","","","",""
+"report_8","MedicalReport","","","8","","0","0",""
+"entity_alert_90","MedicalEntity","Alert","Entity","","","","",""
+"entity_oriented_91","MedicalEntity","oriented","Entity","","","","",""
+"entity_rf_92","MedicalEntity","RF","Vital Sign","","","","",""
+"entity_18_apm_93","MedicalEntity","18 apm","Vital Sign","","","","",""
+"entity_temp_94","MedicalEntity","Temp","Entity","","","","",""
+"entity_36_8_95","MedicalEntity","36.8","Entity","","","","",""
+"entity_hr_96","MedicalEntity","HR","Vital Sign","","","","",""
+"entity_78r_bpm_97","MedicalEntity","78r bpm","Vital Sign","","","","",""
+"entity_bp_98","MedicalEntity","BP","Vital Sign","","","","",""
+"entity_150_80_mmhg_99","MedicalEntity","150/80 mmHg","Entity","","","","",""
+"entity_spo2_100","MedicalEntity","SpO2","Vital Sign","","","","",""
+"entity_96__101","MedicalEntity","96%","Vital Sign","","","","",""
+"report_9","MedicalReport","","","9","","0","0",""
+"entity_patient_102","MedicalEntity","Patient","Medical Concept","","","","",""
+"entity_time_place_103","MedicalEntity","time/place","Entity","","","","",""
+"entity_body_temperature_104","MedicalEntity","Body Temperature","Entity","","","","",""
+"entity_37_5_c_105","MedicalEntity","37.5°C","Entity","","","","",""
+"entity_heart_rate_106","MedicalEntity","Heart Rate","Entity","","","","",""
+"entity_tachycardic_107","MedicalEntity","tachycardic","Entity","","","","",""
+"entity_blood_pressure_108","MedicalEntity","Blood Pressure","Entity","","","","",""
+"entity_130_90_mmhg_109","MedicalEntity","130/90 mmHg","Entity","","","","",""
+"entity_spo2_110","MedicalEntity","SpO2","Vital Sign","","","","",""
+"entity_97__111","MedicalEntity","97%","Vital Sign","","","","",""

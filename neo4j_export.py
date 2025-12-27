@@ -173,27 +173,27 @@ class Neo4jExporter:
         # Export nodes
         nodes_file = os.path.join(self.output_dir, 'nodes.csv')
         with open(nodes_file, 'w', newline='', encoding='utf-8') as f:
-            writer = csv.writer(f)
+            writer = csv.writer(f, quoting=csv.QUOTE_NONNUMERIC, escapechar='\\')
             writer.writerow(['id:ID', 'type:LABEL', 'name', 'entity_type', 'report_index', 'document_id', 'annotated_items_count', 'total_triplets', 'category'])
             
             for node_id, node_data in self.nodes.items():
                 row = [
                     node_id,
                     node_data['type'],
-                    node_data['properties'].get('name', ''),
-                    node_data['properties'].get('entity_type', ''),
-                    node_data['properties'].get('report_index', ''),
-                    node_data['properties'].get('document_id', ''),
-                    node_data['properties'].get('annotated_items_count', ''),
-                    node_data['properties'].get('total_triplets', ''),
-                    node_data['properties'].get('category', '')
+                    self._clean_csv_field(node_data['properties'].get('name', '')),
+                    self._clean_csv_field(node_data['properties'].get('entity_type', '')),
+                    self._clean_csv_field(node_data['properties'].get('report_index', '')),
+                    self._clean_csv_field(node_data['properties'].get('document_id', '')),
+                    self._clean_csv_field(node_data['properties'].get('annotated_items_count', '')),
+                    self._clean_csv_field(node_data['properties'].get('total_triplets', '')),
+                    self._clean_csv_field(node_data['properties'].get('category', ''))
                 ]
                 writer.writerow(row)
         
         # Export relationships
         relationships_file = os.path.join(self.output_dir, 'relationships.csv')
         with open(relationships_file, 'w', newline='', encoding='utf-8') as f:
-            writer = csv.writer(f)
+            writer = csv.writer(f, quoting=csv.QUOTE_NONNUMERIC, escapechar='\\')
             writer.writerow(['id:ID', 'type:TYPE', ':START_ID', ':END_ID', 'relation_text', 'feature_context', 'report_id', 'evidence', 'reasoning', 'role'])
             
             for rel_data in self.relationships:
@@ -202,12 +202,12 @@ class Neo4jExporter:
                     rel_data['type'],
                     rel_data['source'],
                     rel_data['target'],
-                    rel_data['properties'].get('relation_text', ''),
-                    rel_data['properties'].get('feature_context', ''),
-                    rel_data['properties'].get('report_id', ''),
-                    rel_data['properties'].get('evidence', ''),
-                    rel_data['properties'].get('reasoning', ''),
-                    rel_data['properties'].get('role', '')
+                    self._clean_csv_field(rel_data['properties'].get('relation_text', '')),
+                    self._clean_csv_field(rel_data['properties'].get('feature_context', '')),
+                    self._clean_csv_field(rel_data['properties'].get('report_id', '')),
+                    self._clean_csv_field(rel_data['properties'].get('evidence', '')),
+                    self._clean_csv_field(rel_data['properties'].get('reasoning', '')),
+                    self._clean_csv_field(rel_data['properties'].get('role', ''))
                 ]
                 writer.writerow(row)
         
@@ -338,6 +338,19 @@ class Neo4jExporter:
         for rel_type, count in sorted(stats['graph_statistics']['relationship_types'].items(), 
                                      key=lambda x: x[1], reverse=True)[:5]:
             print(f"  {rel_type}: {count}")
+        
+    def _clean_csv_field(self, value: Any) -> str:
+        """Clean a field value for CSV export by removing problematic characters."""
+        if value is None:
+            return ''
+        
+        # Convert to string and remove newlines and carriage returns
+        cleaned = str(value).replace('\n', ' ').replace('\r', ' ').replace('\t', ' ')
+        
+        # Replace multiple spaces with single space
+        cleaned = ' '.join(cleaned.split())
+        
+        return cleaned
         
     def _sanitize_id(self, text: str) -> str:
         """Sanitize text for use in IDs."""
