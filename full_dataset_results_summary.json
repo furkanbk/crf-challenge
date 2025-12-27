@@ -1,0 +1,29 @@
+{
+  "total_reports": 10,
+  "successful_reports": 9,
+  "failed_reports": 1,
+  "total_entities": 620,
+  "total_triplets": 56,
+  "features_processed": [
+    0,
+    2,
+    5,
+    6,
+    7,
+    12
+  ],
+  "reports_by_feature_count": {
+    "12": 2,
+    "6": 2,
+    "2": 1,
+    "7": 1,
+    "0": 1,
+    "5": 2
+  },
+  "error_reports": [
+    {
+      "report_key": "report_5",
+      "error": "Requested tokens (4117) exceed context window of 4096"
+    }
+  ]
+}
