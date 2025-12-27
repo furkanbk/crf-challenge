@@ -1,0 +1,132 @@
+{
+  "graph_statistics": {
+    "total_nodes": 146,
+    "total_relationships": 223,
+    "node_types": {
+      "MedicalReport": 10,
+      "MedicalFeature": 24,
+      "MedicalEntity": 112
+    },
+    "relationship_types": {
+      "ADMITTED_FOR": 1,
+      "IS_A_FORM_OF": 1,
+      "IS_A_TYPE_OF": 1,
+      "INCLUDES_MULTIPLE_MEDICATIONS": 1,
+      "RESULT": 1,
+      "IS": 14,
+      "INCLUDES": 3,
+      "TO": 1,
+      "RELATED_TO_FEATURE": 112,
+      "IS_ORIENTED_TO": 1,
+      "IS_A_BLOOD_PRESSURE_OF": 1,
+      "STATUS": 1,
+      "MEASURED_AT": 4,
+      "USED_TO_TREAT": 3,
+      "DIAGNOSED_WITH": 3,
+      "IS_A_HEART_RATE_OF": 1,
+      "CAUSES": 1,
+      "IS_A_RESPIRATORY_RATE_OF": 1,
+      "IS_AN_ANTICOAGULANT": 1,
+      "IS_A_STATE_OF": 1,
+      "TRAUMA": 1,
+      "TREATED_WITH": 2,
+      "IS_AN_ANTIHYPERTENSIVE_MEDICAT": 1,
+      "ARE": 1,
+      "IS_NOT": 1,
+      "PRESENT_WITH": 1,
+      "IS_A_CARDIOVASCULAR_DISEASE": 1,
+      "IS_A_BODY_TEMPERATURE_OF": 1,
+      "HAS": 1,
+      "ON_THERAPY": 1,
+      "HAS_HISTORY_OF": 1,
+      "VALUE": 2,
+      "HAS_FEATURE": 55,
+      "IS_AN_OXYGEN_SATURATION_OF": 1
+    }
+  },
+  "top_entities": [
+    {
+      "entity": "Patient",
+      "count": 5
+    },
+    {
+      "entity": "therapy",
+      "count": 5
+    },
+    {
+      "entity": "HR",
+      "count": 4
+    },
+    {
+      "entity": "BP",
+      "count": 4
+    },
+    {
+      "entity": "SpO2",
+      "count": 4
+    },
+    {
+      "entity": "patient",
+      "count": 3
+    },
+    {
+      "entity": "Therapy",
+      "count": 2
+    },
+    {
+      "entity": "CAD",
+      "count": 2
+    },
+    {
+      "entity": "RF",
+      "count": 2
+    },
+    {
+      "entity": "Arterial hypertension",
+      "count": 2
+    }
+  ],
+  "top_features": [],
+  "top_relationships": [
+    {
+      "relationship_type": "RELATED_TO_FEATURE",
+      "count": 112
+    },
+    {
+      "relationship_type": "HAS_FEATURE",
+      "count": 55
+    },
+    {
+      "relationship_type": "IS",
+      "count": 14
+    },
+    {
+      "relationship_type": "MEASURED_AT",
+      "count": 4
+    },
+    {
+      "relationship_type": "INCLUDES",
+      "count": 3
+    },
+    {
+      "relationship_type": "USED_TO_TREAT",
+      "count": 3
+    },
+    {
+      "relationship_type": "DIAGNOSED_WITH",
+      "count": 3
+    },
+    {
+      "relationship_type": "TREATED_WITH",
+      "count": 2
+    },
+    {
+      "relationship_type": "VALUE",
+      "count": 2
+    },
+    {
+      "relationship_type": "IS_A_TYPE_OF",
+      "count": 1
+    }
+  ]
+}

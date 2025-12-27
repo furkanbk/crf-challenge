@@ -1,0 +1,3951 @@
+{
+  "metadata": {
+    "total_nodes": 146,
+    "total_relationships": 223,
+    "node_types": {
+      "MedicalReport": 10,
+      "MedicalFeature": 24,
+      "MedicalEntity": 112
+    },
+    "relationship_types": [
+      "ADMITTED_FOR",
+      "IS_A_FORM_OF",
+      "IS_A_TYPE_OF",
+      "INCLUDES_MULTIPLE_MEDICATIONS",
+      "RESULT",
+      "IS",
+      "INCLUDES",
+      "TO",
+      "RELATED_TO_FEATURE",
+      "IS_ORIENTED_TO",
+      "IS_A_BLOOD_PRESSURE_OF",
+      "STATUS",
+      "MEASURED_AT",
+      "USED_TO_TREAT",
+      "DIAGNOSED_WITH",
+      "IS_A_HEART_RATE_OF",
+      "CAUSES",
+      "IS_A_RESPIRATORY_RATE_OF",
+      "IS_AN_ANTICOAGULANT",
+      "IS_A_STATE_OF",
+      "TRAUMA",
+      "TREATED_WITH",
+      "IS_AN_ANTIHYPERTENSIVE_MEDICAT",
+      "ARE",
+      "IS_NOT",
+      "PRESENT_WITH",
+      "IS_A_CARDIOVASCULAR_DISEASE",
+      "IS_A_BODY_TEMPERATURE_OF",
+      "HAS",
+      "ON_THERAPY",
+      "HAS_HISTORY_OF",
+      "VALUE",
+      "HAS_FEATURE",
+      "IS_AN_OXYGEN_SATURATION_OF"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "report_0",
+      "label": "report_0",
+      "type": "MedicalReport",
+      "properties": {
+        "report_index": 0,
+        "document_id": "",
+        "annotated_items_count": 0,
+        "total_triplets": 0
+      }
+    },
+    {
+      "id": "feature_chronic_metabolic_failure",
+      "label": "chronic metabolic failure",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "chronic metabolic failure",
+        "category": "Chronic Condition"
+      }
+    },
+    {
+      "id": "entity_diabetes_mellitus_type_2_0",
+      "label": "Diabetes mellitus type 2",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Diabetes mellitus type 2",
+        "entity_type": "Disease"
+      }
+    },
+    {
+      "id": "entity_metabolic_disorder_1",
+      "label": "metabolic disorder",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "metabolic disorder",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "feature_history_of_allergy",
+      "label": "history of allergy",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "history of allergy",
+        "category": "Medical History"
+      }
+    },
+    {
+      "id": "entity_allergies_2",
+      "label": "ALLERGIES",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "ALLERGIES",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_none_known_3",
+      "label": "none known",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "none known",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "feature_poly_pharmacological_therapy",
+      "label": "poly-pharmacological therapy",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "poly-pharmacological therapy",
+        "category": "Treatment"
+      }
+    },
+    {
+      "id": "entity_therapy_4",
+      "label": "Therapy",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Therapy",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "entity_multiple_medications_5",
+      "label": "multiple medications",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "multiple medications",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "feature_antihypertensive_therapy",
+      "label": "antihypertensive therapy",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "antihypertensive therapy",
+        "category": "Treatment"
+      }
+    },
+    {
+      "id": "entity_therapy_6",
+      "label": "Therapy",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Therapy",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "entity_iperten_7",
+      "label": "iperten",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "iperten",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "feature_cardiovascular_diseases",
+      "label": "cardiovascular diseases",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "cardiovascular diseases",
+        "category": "Disease"
+      }
+    },
+    {
+      "id": "entity_past_medical_history_8",
+      "label": "Past Medical History",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Past Medical History",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_cad_9",
+      "label": "CAD",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "CAD",
+        "entity_type": "Disease"
+      }
+    },
+    {
+      "id": "feature_level_of_consciousness",
+      "label": "level of consciousness",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "level of consciousness",
+        "category": "General"
+      }
+    },
+    {
+      "id": "entity_patient_10",
+      "label": "Patient",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Patient",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "entity_conscious_11",
+      "label": "conscious",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "conscious",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "feature_respiratory_rate",
+      "label": "respiratory rate",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "respiratory rate",
+        "category": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_rf_12",
+      "label": "RF",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "RF",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_14_apm_13",
+      "label": "14 apm",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "14 apm",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "feature_heart_rate",
+      "label": "heart rate",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "heart rate",
+        "category": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_hr_14",
+      "label": "HR",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "HR",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_80_bpm_15",
+      "label": "80 bpm",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "80 bpm",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "feature_blood_pressure",
+      "label": "blood pressure",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "blood pressure",
+        "category": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_bp_16",
+      "label": "BP",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "BP",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_120_80_mm_hg_17",
+      "label": "120/80 mm/hg",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "120/80 mm/hg",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "feature_head_or_other_districts_trauma",
+      "label": "head or other districts trauma",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "head or other districts trauma",
+        "category": "Injury"
+      }
+    },
+    {
+      "id": "entity_head_18",
+      "label": "Head",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Head",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_occipital_region_19",
+      "label": "occipital region",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "occipital region",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "feature_spo2",
+      "label": "spo2",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "spo2",
+        "category": "General"
+      }
+    },
+    {
+      "id": "entity_spo2_20",
+      "label": "SpO2",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "SpO2",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_99__21",
+      "label": "99%",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "99%",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "feature_agitation",
+      "label": "agitation",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "agitation",
+        "category": "General"
+      }
+    },
+    {
+      "id": "entity_patient_22",
+      "label": "Patient",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Patient",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "entity_agitated_23",
+      "label": "agitated",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "agitated",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "report_1",
+      "label": "report_1",
+      "type": "MedicalReport",
+      "properties": {
+        "report_index": 1,
+        "document_id": "",
+        "annotated_items_count": 0,
+        "total_triplets": 0
+      }
+    },
+    {
+      "id": "feature_active_neoplasia",
+      "label": "active neoplasia",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "active neoplasia",
+        "category": "General"
+      }
+    },
+    {
+      "id": "entity_prostate_cancer_excision_24",
+      "label": "prostate cancer excision",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "prostate cancer excision",
+        "entity_type": "Disease"
+      }
+    },
+    {
+      "id": "entity_therapy_25",
+      "label": "therapy",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "therapy",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "entity_allergy_26",
+      "label": "allergy",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "allergy",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_insect_venom_27",
+      "label": "insect venom",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "insect venom",
+        "entity_type": "Diagnostic Procedure"
+      }
+    },
+    {
+      "id": "entity_hypertensive_28",
+      "label": "hypertensive",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "hypertensive",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_therapy_29",
+      "label": "therapy",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "therapy",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "feature_hemoglobin",
+      "label": "hemoglobin",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "hemoglobin",
+        "category": "General"
+      }
+    },
+    {
+      "id": "entity_hgt_30",
+      "label": "HGT",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "HGT",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_78_31",
+      "label": "78",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "78",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "feature_c_reactive_protein",
+      "label": "c-reactive protein",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "c-reactive protein",
+        "category": "General"
+      }
+    },
+    {
+      "id": "entity_crp_32",
+      "label": "CRP",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "CRP",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_nothing_33",
+      "label": "nothing",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "nothing",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "feature_brain_ct_scan__any_abnormality",
+      "label": "brain ct scan, any abnormality",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "brain ct scan, any abnormality",
+        "category": "Imaging"
+      }
+    },
+    {
+      "id": "entity_ct_34",
+      "label": "CT",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "CT",
+        "entity_type": "Diagnostic Procedure"
+      }
+    },
+    {
+      "id": "entity_not_significant_35",
+      "label": "not significant",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "not significant",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "report_2",
+      "label": "report_2",
+      "type": "MedicalReport",
+      "properties": {
+        "report_index": 2,
+        "document_id": "",
+        "annotated_items_count": 0,
+        "total_triplets": 0
+      }
+    },
+    {
+      "id": "feature_history_of_recent_trauma",
+      "label": "history of recent trauma",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "history of recent trauma",
+        "category": "Medical History"
+      }
+    },
+    {
+      "id": "entity_patient_36",
+      "label": "Patient",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Patient",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "entity_left_knee_injury_37",
+      "label": "left knee injury",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "left knee injury",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_patient_38",
+      "label": "Patient",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Patient",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "entity_arterial_hypertension_39",
+      "label": "arterial hypertension",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "arterial hypertension",
+        "entity_type": "Disease"
+      }
+    },
+    {
+      "id": "report_3",
+      "label": "report_3",
+      "type": "MedicalReport",
+      "properties": {
+        "report_index": 3,
+        "document_id": "",
+        "annotated_items_count": 0,
+        "total_triplets": 0
+      }
+    },
+    {
+      "id": "entity_hyperthyroidism_40",
+      "label": "Hyperthyroidism",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Hyperthyroidism",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_metabolic_failure_41",
+      "label": "metabolic failure",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "metabolic failure",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_allergies_42",
+      "label": "Allergies",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Allergies",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_no_known_drug_allergies_43",
+      "label": "no known drug allergies",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "no known drug allergies",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "feature_anticoagulants_or_antiplatelet_drug_therapy",
+      "label": "anticoagulants or antiplatelet drug therapy",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "anticoagulants or antiplatelet drug therapy",
+        "category": "Treatment"
+      }
+    },
+    {
+      "id": "entity_warfarin_44",
+      "label": "warfarin",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "warfarin",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_therapy_45",
+      "label": "therapy",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "therapy",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "entity_therapy_46",
+      "label": "therapy",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "therapy",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "entity_warfarin__asa__aldactone__bisoprolol__lansoprazole_47",
+      "label": "warfarin, ASA, aldactone, bisoprolol, lansoprazole, pregabalin, Micardis plus",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "warfarin, ASA, aldactone, bisoprolol, lansoprazole, pregabalin, Micardis plus",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "feature_diffuse_vascular_disease",
+      "label": "diffuse vascular disease",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "diffuse vascular disease",
+        "category": "Disease"
+      }
+    },
+    {
+      "id": "entity_arterial_hypertension_48",
+      "label": "Arterial hypertension",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Arterial hypertension",
+        "entity_type": "Disease"
+      }
+    },
+    {
+      "id": "entity_vascular_disease_49",
+      "label": "vascular disease",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "vascular disease",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_micardis_plus_50",
+      "label": "Micardis plus",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Micardis plus",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_therapy_51",
+      "label": "therapy",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "therapy",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "entity_arterial_hypertension_52",
+      "label": "Arterial hypertension",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Arterial hypertension",
+        "entity_type": "Disease"
+      }
+    },
+    {
+      "id": "entity_condition_53",
+      "label": "condition",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "condition",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "report_4",
+      "label": "report_4",
+      "type": "MedicalReport",
+      "properties": {
+        "report_index": 4,
+        "document_id": "",
+        "annotated_items_count": 0,
+        "total_triplets": 0
+      }
+    },
+    {
+      "id": "entity_adenocarcinoma_of_the_rectum_54",
+      "label": "adenocarcinoma of the rectum",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "adenocarcinoma of the rectum",
+        "entity_type": "Diagnostic Procedure"
+      }
+    },
+    {
+      "id": "entity_folfox_chemotherapy_55",
+      "label": "FOLFOX chemotherapy",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "FOLFOX chemotherapy",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_dabigatran_56",
+      "label": "dabigatran",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "dabigatran",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_af_57",
+      "label": "AF",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "AF",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_losartan_58",
+      "label": "losartan",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "losartan",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_hypertension_59",
+      "label": "hypertension",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "hypertension",
+        "entity_type": "Disease"
+      }
+    },
+    {
+      "id": "entity_losartan_60",
+      "label": "losartan",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "losartan",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_hypertension_61",
+      "label": "hypertension",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "hypertension",
+        "entity_type": "Disease"
+      }
+    },
+    {
+      "id": "entity_cad_62",
+      "label": "CAD",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "CAD",
+        "entity_type": "Disease"
+      }
+    },
+    {
+      "id": "entity_coronary_angiography_63",
+      "label": "coronary angiography",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "coronary angiography",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_hr_64",
+      "label": "HR",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "HR",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_89_65",
+      "label": "89",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "89",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_bp_66",
+      "label": "BP",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "BP",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_160_90_mmhg_67",
+      "label": "160/90 mmHg",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "160/90 mmHg",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_so2_68",
+      "label": "SO2",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "SO2",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_96__69",
+      "label": "96%",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "96%",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "feature_presence_of_dyspnea",
+      "label": "presence of dyspnea",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "presence of dyspnea",
+        "category": "General"
+      }
+    },
+    {
+      "id": "entity_dyspnea_70",
+      "label": "dyspnea",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "dyspnea",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_exertion_71",
+      "label": "exertion",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "exertion",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "feature_ecg__any_abnormality",
+      "label": "ecg, any abnormality",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "ecg, any abnormality",
+        "category": "General"
+      }
+    },
+    {
+      "id": "entity_af_72",
+      "label": "AF",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "AF",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_cardiological_evaluation_73",
+      "label": "cardiological evaluation",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "cardiological evaluation",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "feature_creatinine",
+      "label": "creatinine",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "creatinine",
+        "category": "General"
+      }
+    },
+    {
+      "id": "entity_creat_74",
+      "label": "creat",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "creat",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_1_6_mg_dl_75",
+      "label": "1.6 mg/dl",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "1.6 mg/dl",
+        "entity_type": "Dosage"
+      }
+    },
+    {
+      "id": "feature_cardiac_ultrasound__any_abnormality",
+      "label": "cardiac ultrasound, any abnormality",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "cardiac ultrasound, any abnormality",
+        "category": "General"
+      }
+    },
+    {
+      "id": "entity_pericardial_effusion_76",
+      "label": "pericardial effusion",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "pericardial effusion",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_echocardiogram_77",
+      "label": "echocardiogram",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "echocardiogram",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "report_5",
+      "label": "report_5",
+      "type": "MedicalReport",
+      "properties": {
+        "report_index": 5,
+        "document_id": "",
+        "annotated_items_count": 0,
+        "total_triplets": 0
+      }
+    },
+    {
+      "id": "report_6",
+      "label": "report_6",
+      "type": "MedicalReport",
+      "properties": {
+        "report_index": 6,
+        "document_id": "",
+        "annotated_items_count": 0,
+        "total_triplets": 0
+      }
+    },
+    {
+      "id": "report_7",
+      "label": "report_7",
+      "type": "MedicalReport",
+      "properties": {
+        "report_index": 7,
+        "document_id": "",
+        "annotated_items_count": 0,
+        "total_triplets": 0
+      }
+    },
+    {
+      "id": "entity_patient_78",
+      "label": "patient",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "patient",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "entity_alert_79",
+      "label": "alert",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "alert",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_patient_80",
+      "label": "patient",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "patient",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "entity_oriented_81",
+      "label": "oriented",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "oriented",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "feature_body_temperature",
+      "label": "body temperature",
+      "type": "MedicalFeature",
+      "properties": {
+        "name": "body temperature",
+        "category": "General"
+      }
+    },
+    {
+      "id": "entity_patient_82",
+      "label": "patient",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "patient",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "entity_no_fever_83",
+      "label": "no fever",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "no fever",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_hr_84",
+      "label": "HR",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "HR",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_64_85",
+      "label": "64",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "64",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_bp_86",
+      "label": "BP",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "BP",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_131_84_87",
+      "label": "131/84",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "131/84",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_spo2_88",
+      "label": "SpO2",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "SpO2",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_97__89",
+      "label": "97%",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "97%",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "report_8",
+      "label": "report_8",
+      "type": "MedicalReport",
+      "properties": {
+        "report_index": 8,
+        "document_id": "",
+        "annotated_items_count": 0,
+        "total_triplets": 0
+      }
+    },
+    {
+      "id": "entity_alert_90",
+      "label": "Alert",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Alert",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_oriented_91",
+      "label": "oriented",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "oriented",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_rf_92",
+      "label": "RF",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "RF",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_18_apm_93",
+      "label": "18 apm",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "18 apm",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_temp_94",
+      "label": "Temp",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Temp",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_36_8_95",
+      "label": "36.8",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "36.8",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_hr_96",
+      "label": "HR",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "HR",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_78r_bpm_97",
+      "label": "78r bpm",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "78r bpm",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_bp_98",
+      "label": "BP",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "BP",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_150_80_mmhg_99",
+      "label": "150/80 mmHg",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "150/80 mmHg",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_spo2_100",
+      "label": "SpO2",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "SpO2",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_96__101",
+      "label": "96%",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "96%",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "report_9",
+      "label": "report_9",
+      "type": "MedicalReport",
+      "properties": {
+        "report_index": 9,
+        "document_id": "",
+        "annotated_items_count": 0,
+        "total_triplets": 0
+      }
+    },
+    {
+      "id": "entity_patient_102",
+      "label": "Patient",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Patient",
+        "entity_type": "Medical Concept"
+      }
+    },
+    {
+      "id": "entity_time_place_103",
+      "label": "time/place",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "time/place",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_body_temperature_104",
+      "label": "Body Temperature",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Body Temperature",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_37_5_c_105",
+      "label": "37.5°C",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "37.5°C",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_heart_rate_106",
+      "label": "Heart Rate",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Heart Rate",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_tachycardic_107",
+      "label": "tachycardic",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "tachycardic",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_blood_pressure_108",
+      "label": "Blood Pressure",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "Blood Pressure",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_130_90_mmhg_109",
+      "label": "130/90 mmHg",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "130/90 mmHg",
+        "entity_type": "Entity"
+      }
+    },
+    {
+      "id": "entity_spo2_110",
+      "label": "SpO2",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "SpO2",
+        "entity_type": "Vital Sign"
+      }
+    },
+    {
+      "id": "entity_97__111",
+      "label": "97%",
+      "type": "MedicalEntity",
+      "properties": {
+        "name": "97%",
+        "entity_type": "Vital Sign"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel_has_feature_0_chronic_metabolic_failure",
+      "source": "report_0",
+      "target": "feature_chronic_metabolic_failure",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 0
+      }
+    },
+    {
+      "id": "rel_0",
+      "source": "entity_diabetes_mellitus_type_2_0",
+      "target": "entity_metabolic_disorder_1",
+      "type": "IS_A_TYPE_OF",
+      "label": "is a type of",
+      "properties": {
+        "relation_text": "is a type of",
+        "feature_context": "chronic metabolic failure",
+        "report_id": 0,
+        "evidence": "-[DISEASE_DISORDER] Diabetes mellitus type 2[/DISEASE_DISORDER]",
+        "reasoning": "The presence of diabetes mellitus type 2 in the past medical history indicates chronic metabolic failure."
+      }
+    },
+    {
+      "id": "rel_entity_feature_0",
+      "source": "entity_diabetes_mellitus_type_2_0",
+      "target": "feature_chronic_metabolic_failure",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "chronic metabolic failure",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_1",
+      "source": "entity_metabolic_disorder_1",
+      "target": "feature_chronic_metabolic_failure",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "chronic metabolic failure",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_0_history_of_allergy",
+      "source": "report_0",
+      "target": "feature_history_of_allergy",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 0
+      }
+    },
+    {
+      "id": "rel_2",
+      "source": "entity_allergies_2",
+      "target": "entity_none_known_3",
+      "type": "ARE",
+      "label": "are",
+      "properties": {
+        "relation_text": "are",
+        "feature_context": "history of allergy",
+        "report_id": 0,
+        "evidence": "[SIGN_SYMPTOM]ERGIES[/SIGN_SYMPTOM]: none known",
+        "reasoning": "The note explicitly states that there are no known allergies."
+      }
+    },
+    {
+      "id": "rel_entity_feature_2",
+      "source": "entity_allergies_2",
+      "target": "feature_history_of_allergy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "history of allergy",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_3",
+      "source": "entity_none_known_3",
+      "target": "feature_history_of_allergy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "history of allergy",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_0_poly_pharmacological_therapy",
+      "source": "report_0",
+      "target": "feature_poly_pharmacological_therapy",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 0
+      }
+    },
+    {
+      "id": "rel_4",
+      "source": "entity_therapy_4",
+      "target": "entity_multiple_medications_5",
+      "type": "INCLUDES",
+      "label": "includes",
+      "properties": {
+        "relation_text": "includes",
+        "feature_context": "poly-pharmacological therapy",
+        "report_id": 0,
+        "evidence": "[MEDICATION] metformin[/MEDICATION][DOSAGE] 500 mg[/DOSAGE],[MEDICATION] iperten[/MEDICATION][DOSAGE] 1/2 tablet[/DOSAGE],[MEDICATION] enalapril[/MEDICATION][DOSAGE] 5 mg[/DOSAGE],[MEDICATION] omnic[/MEDICATION][DOSAGE] 0.4 mg[/DOSAGE],[MEDICATION] seloken[/MEDICATION][DOSAGE] 100 mg 1/2 tablet x 2[/DOSAGE],[MEDICATION] cardioASA[/MEDICATION],[MEDICATION] torvast[/MEDICATION][DOSAGE] 20 mg[/DOSAGE],[MEDICATION] contramala[/MEDICATION][DOSAGE] 15 drops[/DOSAGE],[MEDICATION] tachipirina AD[/MEDICATION],[MEDICATION] omnepraozlo[/MEDICATION][DOSAGE] 20 mg[/DOSAGE]",
+        "reasoning": "The note lists multiple medications being taken, indicating poly-pharmacological therapy."
+      }
+    },
+    {
+      "id": "rel_entity_feature_4",
+      "source": "entity_therapy_4",
+      "target": "feature_poly_pharmacological_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "poly-pharmacological therapy",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_5",
+      "source": "entity_multiple_medications_5",
+      "target": "feature_poly_pharmacological_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "poly-pharmacological therapy",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_0_antihypertensive_therapy",
+      "source": "report_0",
+      "target": "feature_antihypertensive_therapy",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 0
+      }
+    },
+    {
+      "id": "rel_6",
+      "source": "entity_therapy_6",
+      "target": "entity_iperten_7",
+      "type": "INCLUDES",
+      "label": "includes",
+      "properties": {
+        "relation_text": "includes",
+        "feature_context": "antihypertensive therapy",
+        "report_id": 0,
+        "evidence": "[MEDICATION] iperten[/MEDICATION][DOSAGE] 1/2 tablet[/DOSAGE]",
+        "reasoning": "The presence of 'iperten' in the therapy list indicates antihypertensive treatment."
+      }
+    },
+    {
+      "id": "rel_entity_feature_6",
+      "source": "entity_therapy_6",
+      "target": "feature_antihypertensive_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "antihypertensive therapy",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_7",
+      "source": "entity_iperten_7",
+      "target": "feature_antihypertensive_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "antihypertensive therapy",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_0_cardiovascular_diseases",
+      "source": "report_0",
+      "target": "feature_cardiovascular_diseases",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 0
+      }
+    },
+    {
+      "id": "rel_8",
+      "source": "entity_past_medical_history_8",
+      "target": "entity_cad_9",
+      "type": "INCLUDES",
+      "label": "includes",
+      "properties": {
+        "relation_text": "includes",
+        "feature_context": "cardiovascular diseases",
+        "report_id": 0,
+        "evidence": "-[DISEASE_DISORDER] CAD[/DISEASE_DISORDER] (reports quadruple[DISEASE_DISORDER] B[/DISEASE_DISORDER][SIGN_SYMPTOM]PAC[/SIGN_SYMPTOM])",
+        "reasoning": "The note mentions 'CAD' in the past medical history, indicating cardiovascular disease."
+      }
+    },
+    {
+      "id": "rel_entity_feature_8",
+      "source": "entity_past_medical_history_8",
+      "target": "feature_cardiovascular_diseases",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "cardiovascular diseases",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_9",
+      "source": "entity_cad_9",
+      "target": "feature_cardiovascular_diseases",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "cardiovascular diseases",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_0_level_of_consciousness",
+      "source": "report_0",
+      "target": "feature_level_of_consciousness",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 0
+      }
+    },
+    {
+      "id": "rel_10",
+      "source": "entity_patient_10",
+      "target": "entity_conscious_11",
+      "type": "IS",
+      "label": "is",
+      "properties": {
+        "relation_text": "is",
+        "feature_context": "level of consciousness",
+        "report_id": 0,
+        "evidence": "[SIGN_SYMPTOM] Conscious[/SIGN_SYMPTOM],[SIGN_SYMPTOM] lucid[/SIGN_SYMPTOM],[SIGN_SYMPTOM] oriented[/SIGN_SYMPTOM], not[SIGN_SYMPTOM] agitated[/SIGN_SYMPTOM].",
+        "reasoning": "The note states the patient is conscious, lucid, and oriented."
+      }
+    },
+    {
+      "id": "rel_entity_feature_10",
+      "source": "entity_patient_10",
+      "target": "feature_level_of_consciousness",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "level of consciousness",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_11",
+      "source": "entity_conscious_11",
+      "target": "feature_level_of_consciousness",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "level of consciousness",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_0_respiratory_rate",
+      "source": "report_0",
+      "target": "feature_respiratory_rate",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 0
+      }
+    },
+    {
+      "id": "rel_12",
+      "source": "entity_rf_12",
+      "target": "entity_14_apm_13",
+      "type": "IS",
+      "label": "is",
+      "properties": {
+        "relation_text": "is",
+        "feature_context": "respiratory rate",
+        "report_id": 0,
+        "evidence": "[DIAGNOSTIC_PROCEDURE] RF[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 14 apm[/LAB_VALUE]",
+        "reasoning": "The respiratory rate is recorded as 14 breaths per minute, indicating a normal rate."
+      }
+    },
+    {
+      "id": "rel_entity_feature_12",
+      "source": "entity_rf_12",
+      "target": "feature_respiratory_rate",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "respiratory rate",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_13",
+      "source": "entity_14_apm_13",
+      "target": "feature_respiratory_rate",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "respiratory rate",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_0_heart_rate",
+      "source": "report_0",
+      "target": "feature_heart_rate",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 0
+      }
+    },
+    {
+      "id": "rel_14",
+      "source": "entity_hr_14",
+      "target": "entity_80_bpm_15",
+      "type": "IS",
+      "label": "is",
+      "properties": {
+        "relation_text": "is",
+        "feature_context": "heart rate",
+        "report_id": 0,
+        "evidence": "[DIAGNOSTIC_PROCEDURE] HR[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 80 bpm[/LAB_VALUE]",
+        "reasoning": "The heart rate is recorded as 80 beats per minute, indicating a normal rate."
+      }
+    },
+    {
+      "id": "rel_entity_feature_14",
+      "source": "entity_hr_14",
+      "target": "feature_heart_rate",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "heart rate",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_15",
+      "source": "entity_80_bpm_15",
+      "target": "feature_heart_rate",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "heart rate",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_0_blood_pressure",
+      "source": "report_0",
+      "target": "feature_blood_pressure",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 0
+      }
+    },
+    {
+      "id": "rel_16",
+      "source": "entity_bp_16",
+      "target": "entity_120_80_mm_hg_17",
+      "type": "IS",
+      "label": "is",
+      "properties": {
+        "relation_text": "is",
+        "feature_context": "blood pressure",
+        "report_id": 0,
+        "evidence": "[DIAGNOSTIC_PROCEDURE] BP[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 120/80 mm/hg[/LAB_VALUE]",
+        "reasoning": "The blood pressure is recorded as 120/80 mm/hg, indicating a normal reading."
+      }
+    },
+    {
+      "id": "rel_entity_feature_16",
+      "source": "entity_bp_16",
+      "target": "feature_blood_pressure",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "blood pressure",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_17",
+      "source": "entity_120_80_mm_hg_17",
+      "target": "feature_blood_pressure",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "blood pressure",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_0_head_or_other_districts_trauma",
+      "source": "report_0",
+      "target": "feature_head_or_other_districts_trauma",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 0
+      }
+    },
+    {
+      "id": "rel_18",
+      "source": "entity_head_18",
+      "target": "entity_occipital_region_19",
+      "type": "TRAUMA",
+      "label": "trauma",
+      "properties": {
+        "relation_text": "trauma",
+        "feature_context": "head or other districts trauma",
+        "report_id": 0,
+        "evidence": "-[BIOLOGICAL_STRUCTURE] occipital region[/BIOLOGICAL_STRUCTURE] with no[SIGN_SYMPTOM] loss of consciousness[/SIGN_SYMPTOM] or[DISEASE_DISORDER] concussion[/DISEASE_DISORDER]",
+        "reasoning": "The note mentions trauma to the occipital region."
+      }
+    },
+    {
+      "id": "rel_entity_feature_18",
+      "source": "entity_head_18",
+      "target": "feature_head_or_other_districts_trauma",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "head or other districts trauma",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_19",
+      "source": "entity_occipital_region_19",
+      "target": "feature_head_or_other_districts_trauma",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "head or other districts trauma",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_0_spo2",
+      "source": "report_0",
+      "target": "feature_spo2",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 0
+      }
+    },
+    {
+      "id": "rel_20",
+      "source": "entity_spo2_20",
+      "target": "entity_99__21",
+      "type": "IS",
+      "label": "is",
+      "properties": {
+        "relation_text": "is",
+        "feature_context": "spo2",
+        "report_id": 0,
+        "evidence": "[DIAGNOSTIC_PROCEDURE] SpO2[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 99%[/LAB_VALUE]",
+        "reasoning": "The oxygen saturation is recorded as 99%, indicating a normal level."
+      }
+    },
+    {
+      "id": "rel_entity_feature_20",
+      "source": "entity_spo2_20",
+      "target": "feature_spo2",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "spo2",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_21",
+      "source": "entity_99__21",
+      "target": "feature_spo2",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "spo2",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_0_agitation",
+      "source": "report_0",
+      "target": "feature_agitation",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 0
+      }
+    },
+    {
+      "id": "rel_22",
+      "source": "entity_patient_22",
+      "target": "entity_agitated_23",
+      "type": "IS_NOT",
+      "label": "is not",
+      "properties": {
+        "relation_text": "is not",
+        "feature_context": "agitation",
+        "report_id": 0,
+        "evidence": "[SIGN_SYMPTOM] Conscious[/SIGN_SYMPTOM],[SIGN_SYMPTOM] lucid[/SIGN_SYMPTOM],[SIGN_SYMPTOM] oriented[/SIGN_SYMPTOM], not[SIGN_SYMPTOM] agitated[/SIGN_SYMPTOM].",
+        "reasoning": "The note states the patient is not agitated."
+      }
+    },
+    {
+      "id": "rel_entity_feature_22",
+      "source": "entity_patient_22",
+      "target": "feature_agitation",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "agitation",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_23",
+      "source": "entity_agitated_23",
+      "target": "feature_agitation",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "agitation",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_1_active_neoplasia",
+      "source": "report_1",
+      "target": "feature_active_neoplasia",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 1
+      }
+    },
+    {
+      "id": "rel_24",
+      "source": "entity_prostate_cancer_excision_24",
+      "target": "entity_therapy_25",
+      "type": "TREATED_WITH",
+      "label": "treated_with",
+      "properties": {
+        "relation_text": "treated_with",
+        "feature_context": "active neoplasia",
+        "report_id": 1,
+        "evidence": "previous[THERAPEUTIC_PROCEDURE] prostate cancer excision[/THERAPEUTIC_PROCEDURE] (2012) with[LAB_VALUE] normal[/LAB_VALUE][CLINICAL_EVENT] follow[/CLINICAL_EVENT]-[CLINICAL_EVENT]up[/CLINICAL_EVENT]",
+        "reasoning": "The mention of 'prostate cancer excision' in 2012 followed by a normal follow-up indicates that the neoplasm was treated and is not currently active."
+      }
+    },
+    {
+      "id": "rel_entity_feature_24",
+      "source": "entity_prostate_cancer_excision_24",
+      "target": "feature_active_neoplasia",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "active neoplasia",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_25",
+      "source": "entity_therapy_25",
+      "target": "feature_active_neoplasia",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "active neoplasia",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_1_history_of_allergy",
+      "source": "report_1",
+      "target": "feature_history_of_allergy",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 1
+      }
+    },
+    {
+      "id": "rel_26",
+      "source": "entity_allergy_26",
+      "target": "entity_insect_venom_27",
+      "type": "TO",
+      "label": "to",
+      "properties": {
+        "relation_text": "to",
+        "feature_context": "history of allergy",
+        "report_id": 1,
+        "evidence": "[DISEASE_DISORDER] allergy[/DISEASE_DISORDER][DETAILED_DESCRIPTION] to[/DETAILED_DESCRIPTION][DETAILED_DESCRIPTION] insect venom[/DETAILED_DESCRIPTION]",
+        "reasoning": "The text explicitly states the patient has an allergy to insect venom, confirming a history of allergy."
+      }
+    },
+    {
+      "id": "rel_entity_feature_26",
+      "source": "entity_allergy_26",
+      "target": "feature_history_of_allergy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "history of allergy",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_27",
+      "source": "entity_insect_venom_27",
+      "target": "feature_history_of_allergy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "history of allergy",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_1_cardiovascular_diseases",
+      "source": "report_1",
+      "target": "feature_cardiovascular_diseases",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 1
+      }
+    },
+    {
+      "id": "rel_28",
+      "source": "entity_hypertensive_28",
+      "target": "entity_therapy_29",
+      "type": "ON_THERAPY",
+      "label": "on therapy",
+      "properties": {
+        "relation_text": "on therapy",
+        "feature_context": "cardiovascular diseases",
+        "report_id": 1,
+        "evidence": "[DISEASE_DISORDER] hypertensive[/DISEASE_DISORDER] on therapy",
+        "reasoning": "The patient is described as being on therapy for hypertension, indicating the presence of cardiovascular disease."
+      }
+    },
+    {
+      "id": "rel_entity_feature_28",
+      "source": "entity_hypertensive_28",
+      "target": "feature_cardiovascular_diseases",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "cardiovascular diseases",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_29",
+      "source": "entity_therapy_29",
+      "target": "feature_cardiovascular_diseases",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "cardiovascular diseases",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_1_hemoglobin",
+      "source": "report_1",
+      "target": "feature_hemoglobin",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 1
+      }
+    },
+    {
+      "id": "rel_30",
+      "source": "entity_hgt_30",
+      "target": "entity_78_31",
+      "type": "VALUE",
+      "label": "value",
+      "properties": {
+        "relation_text": "value",
+        "feature_context": "hemoglobin",
+        "report_id": 1,
+        "evidence": "[DIAGNOSTIC_PROCEDURE] HGT[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 78[/LAB_VALUE]",
+        "reasoning": "The hemoglobin level is reported as 78, which aligns with the ground truth annotation of 'n.n'."
+      }
+    },
+    {
+      "id": "rel_entity_feature_30",
+      "source": "entity_hgt_30",
+      "target": "feature_hemoglobin",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "hemoglobin",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_31",
+      "source": "entity_78_31",
+      "target": "feature_hemoglobin",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "hemoglobin",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_1_c_reactive_protein",
+      "source": "report_1",
+      "target": "feature_c_reactive_protein",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 1
+      }
+    },
+    {
+      "id": "rel_32",
+      "source": "entity_crp_32",
+      "target": "entity_nothing_33",
+      "type": "VALUE",
+      "label": "value",
+      "properties": {
+        "relation_text": "value",
+        "feature_context": "c-reactive protein",
+        "report_id": 1,
+        "evidence": "[DIAGNOSTIC_PROCEDURE] CRP[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] nothing[/LAB_VALUE] to note",
+        "reasoning": "The c-reactive protein level is reported as 'nothing', which aligns with the ground truth annotation of 'n.n.'."
+      }
+    },
+    {
+      "id": "rel_entity_feature_32",
+      "source": "entity_crp_32",
+      "target": "feature_c_reactive_protein",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "c-reactive protein",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_33",
+      "source": "entity_nothing_33",
+      "target": "feature_c_reactive_protein",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "c-reactive protein",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_1_brain_ct_scan__any_abnormality",
+      "source": "report_1",
+      "target": "feature_brain_ct_scan__any_abnormality",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 1
+      }
+    },
+    {
+      "id": "rel_34",
+      "source": "entity_ct_34",
+      "target": "entity_not_significant_35",
+      "type": "RESULT",
+      "label": "result",
+      "properties": {
+        "relation_text": "result",
+        "feature_context": "brain ct scan, any abnormality",
+        "report_id": 1,
+        "evidence": "[DIAGNOSTIC_PROCEDURE] CT[/DIAGNOSTIC_PROCEDURE][BIOLOGICAL_STRUCTURE] brain[/BIOLOGICAL_STRUCTURE] +[BIOLOGICAL_STRUCTURE] eye sockets[/BIOLOGICAL_STRUCTURE][LAB_VALUE] not significant[/LAB_VALUE]",
+        "reasoning": "The CT scan of the brain and eye sockets shows no significant abnormalities, confirming the ground truth annotation."
+      }
+    },
+    {
+      "id": "rel_entity_feature_34",
+      "source": "entity_ct_34",
+      "target": "feature_brain_ct_scan__any_abnormality",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "brain ct scan, any abnormality",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_35",
+      "source": "entity_not_significant_35",
+      "target": "feature_brain_ct_scan__any_abnormality",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "brain ct scan, any abnormality",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_2_history_of_recent_trauma",
+      "source": "report_2",
+      "target": "feature_history_of_recent_trauma",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 2
+      }
+    },
+    {
+      "id": "rel_36",
+      "source": "entity_patient_36",
+      "target": "entity_left_knee_injury_37",
+      "type": "ADMITTED_FOR",
+      "label": "admitted for",
+      "properties": {
+        "relation_text": "admitted for",
+        "feature_context": "history of recent trauma",
+        "report_id": 2,
+        "evidence": "Patient admitted to the CTO ER for left knee injury, X-ray evidence of supracondylar fracture of the left femur.",
+        "reasoning": "The admission to the emergency room due to a left knee injury and subsequent diagnosis of a fracture indicates recent trauma."
+      }
+    },
+    {
+      "id": "rel_entity_feature_36",
+      "source": "entity_patient_36",
+      "target": "feature_history_of_recent_trauma",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "history of recent trauma",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_37",
+      "source": "entity_left_knee_injury_37",
+      "target": "feature_history_of_recent_trauma",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "history of recent trauma",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_2_cardiovascular_diseases",
+      "source": "report_2",
+      "target": "feature_cardiovascular_diseases",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 2
+      }
+    },
+    {
+      "id": "rel_38",
+      "source": "entity_patient_38",
+      "target": "entity_arterial_hypertension_39",
+      "type": "HAS_HISTORY_OF",
+      "label": "has history of",
+      "properties": {
+        "relation_text": "has history of",
+        "feature_context": "cardiovascular diseases",
+        "report_id": 2,
+        "evidence": "APR-2013 Subarachnoid hemorrhage, arterial hypertension, senile dementia, total left hip prosthesis, hypothyroidism",
+        "reasoning": "The mention of 'arterial hypertension' in the patient's medical history directly supports the presence of cardiovascular diseases."
+      }
+    },
+    {
+      "id": "rel_entity_feature_38",
+      "source": "entity_patient_38",
+      "target": "feature_cardiovascular_diseases",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "cardiovascular diseases",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_39",
+      "source": "entity_arterial_hypertension_39",
+      "target": "feature_cardiovascular_diseases",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "cardiovascular diseases",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_3_chronic_metabolic_failure",
+      "source": "report_3",
+      "target": "feature_chronic_metabolic_failure",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 3
+      }
+    },
+    {
+      "id": "rel_40",
+      "source": "entity_hyperthyroidism_40",
+      "target": "entity_metabolic_failure_41",
+      "type": "CAUSES",
+      "label": "causes",
+      "properties": {
+        "relation_text": "causes",
+        "feature_context": "chronic metabolic failure",
+        "report_id": 3,
+        "evidence": "-[DISEASE_DISORDER] Hyperthyroidism[/DISEASE_DISORDER]",
+        "reasoning": "Hyperthyroidism is a condition that can lead to chronic metabolic failure due to its impact on metabolism."
+      }
+    },
+    {
+      "id": "rel_entity_feature_40",
+      "source": "entity_hyperthyroidism_40",
+      "target": "feature_chronic_metabolic_failure",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "chronic metabolic failure",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_41",
+      "source": "entity_metabolic_failure_41",
+      "target": "feature_chronic_metabolic_failure",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "chronic metabolic failure",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_3_history_of_allergy",
+      "source": "report_3",
+      "target": "feature_history_of_allergy",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 3
+      }
+    },
+    {
+      "id": "rel_42",
+      "source": "entity_allergies_42",
+      "target": "entity_no_known_drug_allergies_43",
+      "type": "STATUS",
+      "label": "status",
+      "properties": {
+        "relation_text": "status",
+        "feature_context": "history of allergy",
+        "report_id": 3,
+        "evidence": "Allergies: No known drug allergies",
+        "reasoning": "The note explicitly states there are no known drug allergies, confirming the absence of a history of allergy."
+      }
+    },
+    {
+      "id": "rel_entity_feature_42",
+      "source": "entity_allergies_42",
+      "target": "feature_history_of_allergy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "history of allergy",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_43",
+      "source": "entity_no_known_drug_allergies_43",
+      "target": "feature_history_of_allergy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "history of allergy",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_3_anticoagulants_or_antiplatelet_drug_therapy",
+      "source": "report_3",
+      "target": "feature_anticoagulants_or_antiplatelet_drug_therapy",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 3
+      }
+    },
+    {
+      "id": "rel_44",
+      "source": "entity_warfarin_44",
+      "target": "entity_therapy_45",
+      "type": "IS_AN_ANTICOAGULANT",
+      "label": "is an anticoagulant",
+      "properties": {
+        "relation_text": "is an anticoagulant",
+        "feature_context": "anticoagulants or antiplatelet drug therapy",
+        "report_id": 3,
+        "evidence": "[MEDICATION] warfarin[/MEDICATION][DOSAGE] 5 mg[/DOSAGE][DOSAGE] 1+1/4 tablet[/DOSAGE]",
+        "reasoning": "Warfarin is a well-known anticoagulant medication, and its presence in the therapy list confirms this feature."
+      }
+    },
+    {
+      "id": "rel_entity_feature_44",
+      "source": "entity_warfarin_44",
+      "target": "feature_anticoagulants_or_antiplatelet_drug_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "anticoagulants or antiplatelet drug therapy",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_45",
+      "source": "entity_therapy_45",
+      "target": "feature_anticoagulants_or_antiplatelet_drug_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "anticoagulants or antiplatelet drug therapy",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_3_poly_pharmacological_therapy",
+      "source": "report_3",
+      "target": "feature_poly_pharmacological_therapy",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 3
+      }
+    },
+    {
+      "id": "rel_46",
+      "source": "entity_therapy_46",
+      "target": "entity_warfarin__asa__aldactone__bisoprolol__lansoprazole_47",
+      "type": "INCLUDES_MULTIPLE_MEDICATIONS",
+      "label": "includes multiple medications",
+      "properties": {
+        "relation_text": "includes multiple medications",
+        "feature_context": "poly-pharmacological therapy",
+        "report_id": 3,
+        "evidence": "[MEDICATION] warfarin[/MEDICATION][DOSAGE] 5 mg[/DOSAGE][DOSAGE] 1+1/4 tablet[/DOSAGE],[MEDICATION] ASA[/MEDICATION][DOSAGE] 100 mg 1 tablet[/DOSAGE],[MEDICATION] aldactone[/MEDICATION][DOSAGE] 25 mg 1 tablet[/DOSAGE],[MEDICATION] bisoprolol[/MEDICATION][DOSAGE] 2.5 mg 1 tablet[/DOSAGE],[MEDICATION] lansoprazole[/MEDICATION][DOSAGE] 30 mg 1 tablet[/DOSAGE],[MEDICATION] pregabalin[/MEDICATION][DOSAGE] 75 mg 1 tablet[/DOSAGE],[MEDICATION] Micardis plus[/MEDICATION][DOSAGE] 80/12.5 mg 1 tablet[/DOSAGE]",
+        "reasoning": "The presence of multiple medications in the therapy list indicates poly-pharmacological therapy."
+      }
+    },
+    {
+      "id": "rel_entity_feature_46",
+      "source": "entity_therapy_46",
+      "target": "feature_poly_pharmacological_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "poly-pharmacological therapy",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_47",
+      "source": "entity_warfarin__asa__aldactone__bisoprolol__lansoprazole_47",
+      "target": "feature_poly_pharmacological_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "poly-pharmacological therapy",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_3_diffuse_vascular_disease",
+      "source": "report_3",
+      "target": "feature_diffuse_vascular_disease",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 3
+      }
+    },
+    {
+      "id": "rel_48",
+      "source": "entity_arterial_hypertension_48",
+      "target": "entity_vascular_disease_49",
+      "type": "IS_A_FORM_OF",
+      "label": "is a form of",
+      "properties": {
+        "relation_text": "is a form of",
+        "feature_context": "diffuse vascular disease",
+        "report_id": 3,
+        "evidence": "-[DETAILED_DESCRIPTION] Arterial[/DETAILED_DESCRIPTION][DISEASE_DISORDER] hypertension[/DISEASE_DISORDER]",
+        "reasoning": "Hypertension is a type of vascular disease, and its presence in the medical history supports this feature."
+      }
+    },
+    {
+      "id": "rel_entity_feature_48",
+      "source": "entity_arterial_hypertension_48",
+      "target": "feature_diffuse_vascular_disease",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "diffuse vascular disease",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_49",
+      "source": "entity_vascular_disease_49",
+      "target": "feature_diffuse_vascular_disease",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "diffuse vascular disease",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_3_antihypertensive_therapy",
+      "source": "report_3",
+      "target": "feature_antihypertensive_therapy",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 3
+      }
+    },
+    {
+      "id": "rel_50",
+      "source": "entity_micardis_plus_50",
+      "target": "entity_therapy_51",
+      "type": "IS_AN_ANTIHYPERTENSIVE_MEDICAT",
+      "label": "is an antihypertensive medication",
+      "properties": {
+        "relation_text": "is an antihypertensive medication",
+        "feature_context": "antihypertensive therapy",
+        "report_id": 3,
+        "evidence": "[MEDICATION] Micardis plus[/MEDICATION][DOSAGE] 80/12.5 mg 1 tablet[/DOSAGE]",
+        "reasoning": "Micardis plus is a combination of an ACE inhibitor and a diuretic, commonly used to treat hypertension."
+      }
+    },
+    {
+      "id": "rel_entity_feature_50",
+      "source": "entity_micardis_plus_50",
+      "target": "feature_antihypertensive_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "antihypertensive therapy",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_51",
+      "source": "entity_therapy_51",
+      "target": "feature_antihypertensive_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "antihypertensive therapy",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_3_cardiovascular_diseases",
+      "source": "report_3",
+      "target": "feature_cardiovascular_diseases",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 3
+      }
+    },
+    {
+      "id": "rel_52",
+      "source": "entity_arterial_hypertension_52",
+      "target": "entity_condition_53",
+      "type": "IS_A_CARDIOVASCULAR_DISEASE",
+      "label": "is a cardiovascular disease",
+      "properties": {
+        "relation_text": "is a cardiovascular disease",
+        "feature_context": "cardiovascular diseases",
+        "report_id": 3,
+        "evidence": "-[DETAILED_DESCRIPTION] Arterial[/DETAILED_DESCRIPTION][DISEASE_DISORDER] hypertension[/DISEASE_DISORDER]",
+        "reasoning": "Hypertension is classified as a cardiovascular disease, and its presence in the medical history supports this feature."
+      }
+    },
+    {
+      "id": "rel_entity_feature_52",
+      "source": "entity_arterial_hypertension_52",
+      "target": "feature_cardiovascular_diseases",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "cardiovascular diseases",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_53",
+      "source": "entity_condition_53",
+      "target": "feature_cardiovascular_diseases",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "cardiovascular diseases",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_4_active_neoplasia",
+      "source": "report_4",
+      "target": "feature_active_neoplasia",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 4
+      }
+    },
+    {
+      "id": "rel_54",
+      "source": "entity_adenocarcinoma_of_the_rectum_54",
+      "target": "entity_folfox_chemotherapy_55",
+      "type": "TREATED_WITH",
+      "label": "treated with",
+      "properties": {
+        "relation_text": "treated with",
+        "feature_context": "active neoplasia",
+        "report_id": 4,
+        "evidence": "in past medical history: [HISTORY] arterial [DISEASE_DISORDER] hypertension [DISEASE_DISORDER], in 2018[DETAILED_DESCRIPTION] subtotal [DETAILED_DESCRIPTION][THERAPEUTIC_PROCEDURE] colectomy [THERAPEUTIC_PROCEDURE] for[DISEASE_DISORDER] adenocarcinoma [DISEASE_DISORDER] of the[BIOLOGICAL_STRUCTURE] rectum [BIOLOGICAL_STRUCTURE] followed by a cycle of[MEDICATION] FOLFOX chemotherapy [MEDICATION]",
+        "reasoning": "The patient has a history of adenocarcinoma of the rectum, which was treated with FOLFOX chemotherapy in 2018. This indicates that the neoplasia is no longer active."
+      }
+    },
+    {
+      "id": "rel_entity_feature_54",
+      "source": "entity_adenocarcinoma_of_the_rectum_54",
+      "target": "feature_active_neoplasia",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "active neoplasia",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_55",
+      "source": "entity_folfox_chemotherapy_55",
+      "target": "feature_active_neoplasia",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "active neoplasia",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_4_anticoagulants_or_antiplatelet_drug_therapy",
+      "source": "report_4",
+      "target": "feature_anticoagulants_or_antiplatelet_drug_therapy",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 4
+      }
+    },
+    {
+      "id": "rel_56",
+      "source": "entity_dabigatran_56",
+      "target": "entity_af_57",
+      "type": "USED_TO_TREAT",
+      "label": "used to treat",
+      "properties": {
+        "relation_text": "used to treat",
+        "feature_context": "anticoagulants or antiplatelet drug therapy",
+        "report_id": 4,
+        "evidence": "[MEDICATION] dabigatran [MEDICATION] started.",
+        "reasoning": "The patient is on dabigatran, an anticoagulant medication, which supports the presence of anticoagulants or antiplatelet drug therapy."
+      }
+    },
+    {
+      "id": "rel_entity_feature_56",
+      "source": "entity_dabigatran_56",
+      "target": "feature_anticoagulants_or_antiplatelet_drug_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "anticoagulants or antiplatelet drug therapy",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_57",
+      "source": "entity_af_57",
+      "target": "feature_anticoagulants_or_antiplatelet_drug_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "anticoagulants or antiplatelet drug therapy",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_4_poly_pharmacological_therapy",
+      "source": "report_4",
+      "target": "feature_poly_pharmacological_therapy",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 4
+      }
+    },
+    {
+      "id": "rel_58",
+      "source": "entity_losartan_58",
+      "target": "entity_hypertension_59",
+      "type": "USED_TO_TREAT",
+      "label": "used to treat",
+      "properties": {
+        "relation_text": "used to treat",
+        "feature_context": "poly-pharmacological therapy",
+        "report_id": 4,
+        "evidence": "[MEDICATION] losartan [MEDICATION][DOSAGE] 100 1 tablet [DOSAGE]",
+        "reasoning": "The patient is on multiple medications, including losartan for hypertension, indicating poly-pharmacological therapy."
+      }
+    },
+    {
+      "id": "rel_entity_feature_58",
+      "source": "entity_losartan_58",
+      "target": "feature_poly_pharmacological_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "poly-pharmacological therapy",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_59",
+      "source": "entity_hypertension_59",
+      "target": "feature_poly_pharmacological_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "poly-pharmacological therapy",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_4_antihypertensive_therapy",
+      "source": "report_4",
+      "target": "feature_antihypertensive_therapy",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 4
+      }
+    },
+    {
+      "id": "rel_60",
+      "source": "entity_losartan_60",
+      "target": "entity_hypertension_61",
+      "type": "USED_TO_TREAT",
+      "label": "used to treat",
+      "properties": {
+        "relation_text": "used to treat",
+        "feature_context": "antihypertensive therapy",
+        "report_id": 4,
+        "evidence": "[MEDICATION] losartan [MEDICATION][DOSAGE] 100 1 tablet [DOSAGE]",
+        "reasoning": "The patient is on losartan, an antihypertensive medication, which supports the presence of antihypertensive therapy."
+      }
+    },
+    {
+      "id": "rel_entity_feature_60",
+      "source": "entity_losartan_60",
+      "target": "feature_antihypertensive_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "antihypertensive therapy",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_61",
+      "source": "entity_hypertension_61",
+      "target": "feature_antihypertensive_therapy",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "antihypertensive therapy",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_4_cardiovascular_diseases",
+      "source": "report_4",
+      "target": "feature_cardiovascular_diseases",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 4
+      }
+    },
+    {
+      "id": "rel_62",
+      "source": "entity_cad_62",
+      "target": "entity_coronary_angiography_63",
+      "type": "DIAGNOSED_WITH",
+      "label": "diagnosed with",
+      "properties": {
+        "relation_text": "diagnosed with",
+        "feature_context": "cardiovascular diseases",
+        "report_id": 4,
+        "evidence": "[DIAGNOSTIC_PROCEDURE] coronary [DIAGNOSTIC_PROCEDURE][DIAGNOSTIC_PROCEDURE] angiogram [DIAGNOSTIC_PROCEDURE] procedure shows[DETAILED_DESCRIPTION] triple vessel [DETAILED_DESCRIPTION][DISEASE_DISORDER] CAD [DISEASE_DISORDER]:[SEVERITY] critical [SEVERITY][LAB_VALUE] diminished [LAB_VALUE][DIAGNOSTIC_PROCEDURE] DX [DIAGNOSTIC_PROCEDURE]",
+        "reasoning": "The patient has been diagnosed with coronary artery disease (CAD) through a coronary angiogram, indicating the presence of cardiovascular diseases."
+      }
+    },
+    {
+      "id": "rel_entity_feature_62",
+      "source": "entity_cad_62",
+      "target": "feature_cardiovascular_diseases",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "cardiovascular diseases",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_63",
+      "source": "entity_coronary_angiography_63",
+      "target": "feature_cardiovascular_diseases",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "cardiovascular diseases",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_4_heart_rate",
+      "source": "report_4",
+      "target": "feature_heart_rate",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 4
+      }
+    },
+    {
+      "id": "rel_64",
+      "source": "entity_hr_64",
+      "target": "entity_89_65",
+      "type": "MEASURED_AT",
+      "label": "measured at",
+      "properties": {
+        "relation_text": "measured at",
+        "feature_context": "heart rate",
+        "report_id": 4,
+        "evidence": "[DIAGNOSTIC_PROCEDURE] HR [DIAGNOSTIC_PROCEDURE][LAB_VALUE] 89 [LAB_VALUE]",
+        "reasoning": "The patient's heart rate is measured at 89, which falls within the normal range of 60-100 beats per minute."
+      }
+    },
+    {
+      "id": "rel_entity_feature_64",
+      "source": "entity_hr_64",
+      "target": "feature_heart_rate",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "heart rate",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_65",
+      "source": "entity_89_65",
+      "target": "feature_heart_rate",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "heart rate",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_4_blood_pressure",
+      "source": "report_4",
+      "target": "feature_blood_pressure",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 4
+      }
+    },
+    {
+      "id": "rel_66",
+      "source": "entity_bp_66",
+      "target": "entity_160_90_mmhg_67",
+      "type": "MEASURED_AT",
+      "label": "measured at",
+      "properties": {
+        "relation_text": "measured at",
+        "feature_context": "blood pressure",
+        "report_id": 4,
+        "evidence": "[DIAGNOSTIC_PROCEDURE] BP [DIAGNOSTIC_PROCEDURE][LAB_VALUE] 160/90 mmHg [LAB_VALUE]",
+        "reasoning": "The patient's blood pressure is measured at 160/90 mmHg, which indicates hypertension."
+      }
+    },
+    {
+      "id": "rel_entity_feature_66",
+      "source": "entity_bp_66",
+      "target": "feature_blood_pressure",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "blood pressure",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_67",
+      "source": "entity_160_90_mmhg_67",
+      "target": "feature_blood_pressure",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "blood pressure",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_4_spo2",
+      "source": "report_4",
+      "target": "feature_spo2",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 4
+      }
+    },
+    {
+      "id": "rel_68",
+      "source": "entity_so2_68",
+      "target": "entity_96__69",
+      "type": "MEASURED_AT",
+      "label": "measured at",
+      "properties": {
+        "relation_text": "measured at",
+        "feature_context": "spo2",
+        "report_id": 4,
+        "evidence": "[DIAGNOSTIC_PROCEDURE] SO2 [DIAGNOSTIC_PROCEDURE]:[LAB_VALUE] 96% [LAB_VALUE]",
+        "reasoning": "The patient's oxygen saturation is measured at 96%, which falls within the normal range of 95-100%."
+      }
+    },
+    {
+      "id": "rel_entity_feature_68",
+      "source": "entity_so2_68",
+      "target": "feature_spo2",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "spo2",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_69",
+      "source": "entity_96__69",
+      "target": "feature_spo2",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "spo2",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_4_presence_of_dyspnea",
+      "source": "report_4",
+      "target": "feature_presence_of_dyspnea",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 4
+      }
+    },
+    {
+      "id": "rel_70",
+      "source": "entity_dyspnea_70",
+      "target": "entity_exertion_71",
+      "type": "PRESENT_WITH",
+      "label": "present with",
+      "properties": {
+        "relation_text": "present with",
+        "feature_context": "presence of dyspnea",
+        "report_id": 4,
+        "evidence": "[SIGN_SYMPTOM] dyspnea [SIGN_SYMPTOM] upon[DETAILED_DESCRIPTION] exertion [DETAILED_DESCRIPTION]",
+        "reasoning": "The patient reports experiencing dyspnea upon exertion, indicating the presence of dyspnea."
+      }
+    },
+    {
+      "id": "rel_entity_feature_70",
+      "source": "entity_dyspnea_70",
+      "target": "feature_presence_of_dyspnea",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "presence of dyspnea",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_71",
+      "source": "entity_exertion_71",
+      "target": "feature_presence_of_dyspnea",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "presence of dyspnea",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_4_ecg__any_abnormality",
+      "source": "report_4",
+      "target": "feature_ecg__any_abnormality",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 4
+      }
+    },
+    {
+      "id": "rel_72",
+      "source": "entity_af_72",
+      "target": "entity_cardiological_evaluation_73",
+      "type": "DIAGNOSED_WITH",
+      "label": "diagnosed with",
+      "properties": {
+        "relation_text": "diagnosed with",
+        "feature_context": "ecg, any abnormality",
+        "report_id": 4,
+        "evidence": "[SIGN_SYMPTOM] AF [SIGN_SYMPTOM],[MEDICATION] dabigatran [MEDICATION] started.",
+        "reasoning": "The patient has been diagnosed with atrial fibrillation (AF), which is an abnormality on the ECG."
+      }
+    },
+    {
+      "id": "rel_entity_feature_72",
+      "source": "entity_af_72",
+      "target": "feature_ecg__any_abnormality",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "ecg, any abnormality",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_73",
+      "source": "entity_cardiological_evaluation_73",
+      "target": "feature_ecg__any_abnormality",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "ecg, any abnormality",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_4_creatinine",
+      "source": "report_4",
+      "target": "feature_creatinine",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 4
+      }
+    },
+    {
+      "id": "rel_74",
+      "source": "entity_creat_74",
+      "target": "entity_1_6_mg_dl_75",
+      "type": "MEASURED_AT",
+      "label": "measured at",
+      "properties": {
+        "relation_text": "measured at",
+        "feature_context": "creatinine",
+        "report_id": 4,
+        "evidence": "[LAB_VALUE] creat [LAB_VALUE][LAB_VALUE] 1.6 mg/dl [LAB_VALUE]",
+        "reasoning": "The patient's creatinine level is measured at 1.6 mg/dl."
+      }
+    },
+    {
+      "id": "rel_entity_feature_74",
+      "source": "entity_creat_74",
+      "target": "feature_creatinine",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "creatinine",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_75",
+      "source": "entity_1_6_mg_dl_75",
+      "target": "feature_creatinine",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "creatinine",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_4_cardiac_ultrasound__any_abnormality",
+      "source": "report_4",
+      "target": "feature_cardiac_ultrasound__any_abnormality",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 4
+      }
+    },
+    {
+      "id": "rel_76",
+      "source": "entity_pericardial_effusion_76",
+      "target": "entity_echocardiogram_77",
+      "type": "DIAGNOSED_WITH",
+      "label": "diagnosed with",
+      "properties": {
+        "relation_text": "diagnosed with",
+        "feature_context": "cardiac ultrasound, any abnormality",
+        "report_id": 4,
+        "evidence": "[SIGN_SYMPTOM] moderate [SEVERITY][SIGN_SYMPTOM] pericardial effusion [SIGN_SYMPTOM], max[DISTANCE] 18 mm [DISTANCE] in[BIOLOGICAL_STRUCTURE] posterolateral site [BIOLOGICAL_STRUCTURE],[DETAILED_DESCRIPTION] organized [DETAILED_DESCRIPTION], no[SIGN_SYMPTOM] tamponade [SIGN_SYMPTOM].",
+        "reasoning": "The patient has a moderate pericardial effusion, which is an abnormality detected on the echocardiogram."
+      }
+    },
+    {
+      "id": "rel_entity_feature_76",
+      "source": "entity_pericardial_effusion_76",
+      "target": "feature_cardiac_ultrasound__any_abnormality",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "cardiac ultrasound, any abnormality",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_77",
+      "source": "entity_echocardiogram_77",
+      "target": "feature_cardiac_ultrasound__any_abnormality",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "cardiac ultrasound, any abnormality",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_7_level_of_consciousness",
+      "source": "report_7",
+      "target": "feature_level_of_consciousness",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 7
+      }
+    },
+    {
+      "id": "rel_78",
+      "source": "entity_patient_78",
+      "target": "entity_alert_79",
+      "type": "IS",
+      "label": "is",
+      "properties": {
+        "relation_text": "is",
+        "feature_context": "level of consciousness",
+        "report_id": 7,
+        "evidence": "patient alert",
+        "reasoning": "The patient is described as 'alert,' indicating a normal level of consciousness."
+      }
+    },
+    {
+      "id": "rel_entity_feature_78",
+      "source": "entity_patient_78",
+      "target": "feature_level_of_consciousness",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "level of consciousness",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_79",
+      "source": "entity_alert_79",
+      "target": "feature_level_of_consciousness",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "level of consciousness",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_80",
+      "source": "entity_patient_80",
+      "target": "entity_oriented_81",
+      "type": "IS",
+      "label": "is",
+      "properties": {
+        "relation_text": "is",
+        "feature_context": "level of consciousness",
+        "report_id": 7,
+        "evidence": "oriented",
+        "reasoning": "The patient is noted to be 'oriented,' further supporting the assessment of a normal level of consciousness."
+      }
+    },
+    {
+      "id": "rel_entity_feature_80",
+      "source": "entity_patient_80",
+      "target": "feature_level_of_consciousness",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "level of consciousness",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_81",
+      "source": "entity_oriented_81",
+      "target": "feature_level_of_consciousness",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "level of consciousness",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_7_body_temperature",
+      "source": "report_7",
+      "target": "feature_body_temperature",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 7
+      }
+    },
+    {
+      "id": "rel_82",
+      "source": "entity_patient_82",
+      "target": "entity_no_fever_83",
+      "type": "HAS",
+      "label": "has",
+      "properties": {
+        "relation_text": "has",
+        "feature_context": "body temperature",
+        "report_id": 7,
+        "evidence": "no signs of fever",
+        "reasoning": "There are no signs of fever, indicating that the patient's body temperature is within normal limits."
+      }
+    },
+    {
+      "id": "rel_entity_feature_82",
+      "source": "entity_patient_82",
+      "target": "feature_body_temperature",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "body temperature",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_83",
+      "source": "entity_no_fever_83",
+      "target": "feature_body_temperature",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "body temperature",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_7_heart_rate",
+      "source": "report_7",
+      "target": "feature_heart_rate",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 7
+      }
+    },
+    {
+      "id": "rel_84",
+      "source": "entity_hr_84",
+      "target": "entity_64_85",
+      "type": "IS",
+      "label": "is",
+      "properties": {
+        "relation_text": "is",
+        "feature_context": "heart rate",
+        "report_id": 7,
+        "evidence": "HR 64",
+        "reasoning": "The heart rate is recorded as '64,' which falls within the normal range for a resting adult."
+      }
+    },
+    {
+      "id": "rel_entity_feature_84",
+      "source": "entity_hr_84",
+      "target": "feature_heart_rate",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "heart rate",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_85",
+      "source": "entity_64_85",
+      "target": "feature_heart_rate",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "heart rate",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_7_blood_pressure",
+      "source": "report_7",
+      "target": "feature_blood_pressure",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 7
+      }
+    },
+    {
+      "id": "rel_86",
+      "source": "entity_bp_86",
+      "target": "entity_131_84_87",
+      "type": "IS",
+      "label": "is",
+      "properties": {
+        "relation_text": "is",
+        "feature_context": "blood pressure",
+        "report_id": 7,
+        "evidence": "BP 131/84",
+        "reasoning": "The blood pressure is recorded as '131/84,' which is within the normal range for a resting adult."
+      }
+    },
+    {
+      "id": "rel_entity_feature_86",
+      "source": "entity_bp_86",
+      "target": "feature_blood_pressure",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "blood pressure",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_87",
+      "source": "entity_131_84_87",
+      "target": "feature_blood_pressure",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "blood pressure",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_7_spo2",
+      "source": "report_7",
+      "target": "feature_spo2",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 7
+      }
+    },
+    {
+      "id": "rel_88",
+      "source": "entity_spo2_88",
+      "target": "entity_97__89",
+      "type": "IS",
+      "label": "is",
+      "properties": {
+        "relation_text": "is",
+        "feature_context": "spo2",
+        "report_id": 7,
+        "evidence": "SpO2 97%",
+        "reasoning": "The SpO2 level is recorded as '97%,' which is within the normal range for oxygen saturation."
+      }
+    },
+    {
+      "id": "rel_entity_feature_88",
+      "source": "entity_spo2_88",
+      "target": "feature_spo2",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "spo2",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_89",
+      "source": "entity_97__89",
+      "target": "feature_spo2",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "spo2",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_8_level_of_consciousness",
+      "source": "report_8",
+      "target": "feature_level_of_consciousness",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 8
+      }
+    },
+    {
+      "id": "rel_90",
+      "source": "entity_alert_90",
+      "target": "entity_oriented_91",
+      "type": "IS_A_STATE_OF",
+      "label": "is a state of",
+      "properties": {
+        "relation_text": "is a state of",
+        "feature_context": "level of consciousness",
+        "report_id": 8,
+        "evidence": "Alert, oriented",
+        "reasoning": "The patient is described as 'alert' and 'oriented,' which indicates they are fully conscious."
+      }
+    },
+    {
+      "id": "rel_entity_feature_90",
+      "source": "entity_alert_90",
+      "target": "feature_level_of_consciousness",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "level of consciousness",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_91",
+      "source": "entity_oriented_91",
+      "target": "feature_level_of_consciousness",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "level of consciousness",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_8_respiratory_rate",
+      "source": "report_8",
+      "target": "feature_respiratory_rate",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 8
+      }
+    },
+    {
+      "id": "rel_92",
+      "source": "entity_rf_92",
+      "target": "entity_18_apm_93",
+      "type": "IS_A_RESPIRATORY_RATE_OF",
+      "label": "is a respiratory rate of",
+      "properties": {
+        "relation_text": "is a respiratory rate of",
+        "feature_context": "respiratory rate",
+        "report_id": 8,
+        "evidence": "RF 18 apm",
+        "reasoning": "The patient's respiratory rate is recorded as '18 apm,' which falls within the normal range, indicating eupnea."
+      }
+    },
+    {
+      "id": "rel_entity_feature_92",
+      "source": "entity_rf_92",
+      "target": "feature_respiratory_rate",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "respiratory rate",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_93",
+      "source": "entity_18_apm_93",
+      "target": "feature_respiratory_rate",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "respiratory rate",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_8_body_temperature",
+      "source": "report_8",
+      "target": "feature_body_temperature",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 8
+      }
+    },
+    {
+      "id": "rel_94",
+      "source": "entity_temp_94",
+      "target": "entity_36_8_95",
+      "type": "IS_A_BODY_TEMPERATURE_OF",
+      "label": "is a body temperature of",
+      "properties": {
+        "relation_text": "is a body temperature of",
+        "feature_context": "body temperature",
+        "report_id": 8,
+        "evidence": "Temp 36.8",
+        "reasoning": "The patient's body temperature is recorded as '36.8,' which falls within the normal range, indicating normothermia."
+      }
+    },
+    {
+      "id": "rel_entity_feature_94",
+      "source": "entity_temp_94",
+      "target": "feature_body_temperature",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "body temperature",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_95",
+      "source": "entity_36_8_95",
+      "target": "feature_body_temperature",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "body temperature",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_8_heart_rate",
+      "source": "report_8",
+      "target": "feature_heart_rate",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 8
+      }
+    },
+    {
+      "id": "rel_96",
+      "source": "entity_hr_96",
+      "target": "entity_78r_bpm_97",
+      "type": "IS_A_HEART_RATE_OF",
+      "label": "is a heart rate of",
+      "properties": {
+        "relation_text": "is a heart rate of",
+        "feature_context": "heart rate",
+        "report_id": 8,
+        "evidence": "HR 78r bpm",
+        "reasoning": "The patient's heart rate is recorded as '78r bpm,' which falls within the normal range, indicating normocardia."
+      }
+    },
+    {
+      "id": "rel_entity_feature_96",
+      "source": "entity_hr_96",
+      "target": "feature_heart_rate",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "heart rate",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_97",
+      "source": "entity_78r_bpm_97",
+      "target": "feature_heart_rate",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "heart rate",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_8_blood_pressure",
+      "source": "report_8",
+      "target": "feature_blood_pressure",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 8
+      }
+    },
+    {
+      "id": "rel_98",
+      "source": "entity_bp_98",
+      "target": "entity_150_80_mmhg_99",
+      "type": "IS_A_BLOOD_PRESSURE_OF",
+      "label": "is a blood pressure of",
+      "properties": {
+        "relation_text": "is a blood pressure of",
+        "feature_context": "blood pressure",
+        "report_id": 8,
+        "evidence": "BP 150/80 mmHg",
+        "reasoning": "The patient's blood pressure is recorded as '150/80 mmHg,' which indicates hypertension."
+      }
+    },
+    {
+      "id": "rel_entity_feature_98",
+      "source": "entity_bp_98",
+      "target": "feature_blood_pressure",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "blood pressure",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_99",
+      "source": "entity_150_80_mmhg_99",
+      "target": "feature_blood_pressure",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "blood pressure",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_8_spo2",
+      "source": "report_8",
+      "target": "feature_spo2",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 8
+      }
+    },
+    {
+      "id": "rel_100",
+      "source": "entity_spo2_100",
+      "target": "entity_96__101",
+      "type": "IS_AN_OXYGEN_SATURATION_OF",
+      "label": "is an oxygen saturation of",
+      "properties": {
+        "relation_text": "is an oxygen saturation of",
+        "feature_context": "spo2",
+        "report_id": 8,
+        "evidence": "SpO2 96% on room air",
+        "reasoning": "The patient's SpO2 is recorded as '96%' on room air, which aligns with the annotation."
+      }
+    },
+    {
+      "id": "rel_entity_feature_100",
+      "source": "entity_spo2_100",
+      "target": "feature_spo2",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "spo2",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_101",
+      "source": "entity_96__101",
+      "target": "feature_spo2",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "spo2",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_9_level_of_consciousness",
+      "source": "report_9",
+      "target": "feature_level_of_consciousness",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 9
+      }
+    },
+    {
+      "id": "rel_102",
+      "source": "entity_patient_102",
+      "target": "entity_time_place_103",
+      "type": "IS_ORIENTED_TO",
+      "label": "is oriented to",
+      "properties": {
+        "relation_text": "is oriented to",
+        "feature_context": "level of consciousness",
+        "report_id": 9,
+        "evidence": "oriented to time/place",
+        "reasoning": "The patient is described as alert and oriented to time and place, indicating a normal level of consciousness."
+      }
+    },
+    {
+      "id": "rel_entity_feature_102",
+      "source": "entity_patient_102",
+      "target": "feature_level_of_consciousness",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "level of consciousness",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_103",
+      "source": "entity_time_place_103",
+      "target": "feature_level_of_consciousness",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "level of consciousness",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_9_body_temperature",
+      "source": "report_9",
+      "target": "feature_body_temperature",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 9
+      }
+    },
+    {
+      "id": "rel_104",
+      "source": "entity_body_temperature_104",
+      "target": "entity_37_5_c_105",
+      "type": "IS",
+      "label": "is",
+      "properties": {
+        "relation_text": "is",
+        "feature_context": "body temperature",
+        "report_id": 9,
+        "evidence": "T: 37.5°C",
+        "reasoning": "The body temperature is recorded as 37.5°C, which falls within the normal range of 36.1°C to 37.8°C."
+      }
+    },
+    {
+      "id": "rel_entity_feature_104",
+      "source": "entity_body_temperature_104",
+      "target": "feature_body_temperature",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "body temperature",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_105",
+      "source": "entity_37_5_c_105",
+      "target": "feature_body_temperature",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "body temperature",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_9_heart_rate",
+      "source": "report_9",
+      "target": "feature_heart_rate",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 9
+      }
+    },
+    {
+      "id": "rel_106",
+      "source": "entity_heart_rate_106",
+      "target": "entity_tachycardic_107",
+      "type": "IS",
+      "label": "is",
+      "properties": {
+        "relation_text": "is",
+        "feature_context": "heart rate",
+        "report_id": 9,
+        "evidence": "Cardiac examination: tachycardic",
+        "reasoning": "The cardiac examination notes that the patient is tachycardic, indicating an elevated heart rate."
+      }
+    },
+    {
+      "id": "rel_entity_feature_106",
+      "source": "entity_heart_rate_106",
+      "target": "feature_heart_rate",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "heart rate",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_107",
+      "source": "entity_tachycardic_107",
+      "target": "feature_heart_rate",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "heart rate",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_9_blood_pressure",
+      "source": "report_9",
+      "target": "feature_blood_pressure",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 9
+      }
+    },
+    {
+      "id": "rel_108",
+      "source": "entity_blood_pressure_108",
+      "target": "entity_130_90_mmhg_109",
+      "type": "IS",
+      "label": "is",
+      "properties": {
+        "relation_text": "is",
+        "feature_context": "blood pressure",
+        "report_id": 9,
+        "evidence": "BP: 130/90 mmHg",
+        "reasoning": "The blood pressure is recorded as 130/90 mmHg, which falls within the normal range of 90-120/60-80 mmHg."
+      }
+    },
+    {
+      "id": "rel_entity_feature_108",
+      "source": "entity_blood_pressure_108",
+      "target": "feature_blood_pressure",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "blood pressure",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_109",
+      "source": "entity_130_90_mmhg_109",
+      "target": "feature_blood_pressure",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "blood pressure",
+        "role": "object"
+      }
+    },
+    {
+      "id": "rel_has_feature_9_spo2",
+      "source": "report_9",
+      "target": "feature_spo2",
+      "type": "HAS_FEATURE",
+      "label": "HAS_FEATURE",
+      "properties": {
+        "source_report": 9
+      }
+    },
+    {
+      "id": "rel_110",
+      "source": "entity_spo2_110",
+      "target": "entity_97__111",
+      "type": "IS",
+      "label": "is",
+      "properties": {
+        "relation_text": "is",
+        "feature_context": "spo2",
+        "report_id": 9,
+        "evidence": "SatO2: 97% on room air",
+        "reasoning": "The SpO2 is recorded as 97% on room air, which falls within the normal range of 95-100%."
+      }
+    },
+    {
+      "id": "rel_entity_feature_110",
+      "source": "entity_spo2_110",
+      "target": "feature_spo2",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "spo2",
+        "role": "subject"
+      }
+    },
+    {
+      "id": "rel_entity_feature_111",
+      "source": "entity_97__111",
+      "target": "feature_spo2",
+      "type": "RELATED_TO_FEATURE",
+      "label": "RELATED_TO_FEATURE",
+      "properties": {
+        "feature": "spo2",
+        "role": "object"
+      }
+    }
+  ]
+}

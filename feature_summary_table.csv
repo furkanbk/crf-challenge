@@ -1,0 +1,25 @@
+Feature,Occurrences,Triplets,Reports
+cardiovascular diseases,5,5,5
+heart rate,5,5,5
+blood pressure,5,5,5
+spo2,5,5,5
+level of consciousness,5,5,4
+history of allergy,3,3,3
+poly-pharmacological therapy,3,3,3
+antihypertensive therapy,3,3,3
+body temperature,3,3,3
+active neoplasia,2,2,2
+anticoagulants or antiplatelet drug therapy,2,2,2
+respiratory rate,2,2,2
+chronic metabolic failure,2,2,2
+head or other districts trauma,1,1,1
+agitation,1,1,1
+hemoglobin,1,1,1
+c-reactive protein,1,1,1
+"brain ct scan, any abnormality",1,1,1
+history of recent trauma,1,1,1
+diffuse vascular disease,1,1,1
+presence of dyspnea,1,1,1
+"ecg, any abnormality",1,1,1
+creatinine,1,1,1
+"cardiac ultrasound, any abnormality",1,1,1

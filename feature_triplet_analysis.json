@@ -1,0 +1,809 @@
+{
+  "cardiovascular diseases": {
+    "total_occurrences": 5,
+    "total_triplets": 5,
+    "reports_appearing_in": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "all_triplets": [
+      {
+        "report_index": 0,
+        "triplet": [
+          "Past Medical History",
+          "includes",
+          "CAD"
+        ],
+        "evidence": "-[DISEASE_DISORDER] CAD[/DISEASE_DISORDER] (reports quadruple[DISEASE_DISORDER] B[/DISEASE_DISORDER][SIGN_SYMPTOM]PAC[/SIGN_SYMPTOM])",
+        "reasoning": "The note mentions 'CAD' in the past medical history, indicating cardiovascular disease."
+      },
+      {
+        "report_index": 1,
+        "triplet": [
+          "hypertensive",
+          "on therapy",
+          "therapy"
+        ],
+        "evidence": "[DISEASE_DISORDER] hypertensive[/DISEASE_DISORDER] on therapy",
+        "reasoning": "The patient is described as being on therapy for hypertension, indicating the presence of cardiovascular disease."
+      },
+      {
+        "report_index": 2,
+        "triplet": [
+          "Patient",
+          "has history of",
+          "arterial hypertension"
+        ],
+        "evidence": "APR-2013 Subarachnoid hemorrhage, arterial hypertension, senile dementia, total left hip prosthesis, hypothyroidism",
+        "reasoning": "The mention of 'arterial hypertension' in the patient's medical history directly supports the presence of cardiovascular diseases."
+      },
+      {
+        "report_index": 3,
+        "triplet": [
+          "Arterial hypertension",
+          "is a cardiovascular disease",
+          "condition"
+        ],
+        "evidence": "-[DETAILED_DESCRIPTION] Arterial[/DETAILED_DESCRIPTION][DISEASE_DISORDER] hypertension[/DISEASE_DISORDER]",
+        "reasoning": "Hypertension is classified as a cardiovascular disease, and its presence in the medical history supports this feature."
+      },
+      {
+        "report_index": 4,
+        "triplet": [
+          "CAD",
+          "diagnosed with",
+          "coronary angiography"
+        ],
+        "evidence": "[DIAGNOSTIC_PROCEDURE] coronary [DIAGNOSTIC_PROCEDURE][DIAGNOSTIC_PROCEDURE] angiogram [DIAGNOSTIC_PROCEDURE] procedure shows[DETAILED_DESCRIPTION] triple vessel [DETAILED_DESCRIPTION][DISEASE_DISORDER] CAD [DISEASE_DISORDER]:[SEVERITY] critical [SEVERITY][LAB_VALUE] diminished [LAB_VALUE][DIAGNOSTIC_PROCEDURE] DX [DIAGNOSTIC_PROCEDURE]",
+        "reasoning": "The patient has been diagnosed with coronary artery disease (CAD) through a coronary angiogram, indicating the presence of cardiovascular diseases."
+      }
+    ]
+  },
+  "level of consciousness": {
+    "total_occurrences": 5,
+    "total_triplets": 5,
+    "reports_appearing_in": [
+      0,
+      8,
+      9,
+      7
+    ],
+    "all_triplets": [
+      {
+        "report_index": 0,
+        "triplet": [
+          "Patient",
+          "is",
+          "conscious"
+        ],
+        "evidence": "[SIGN_SYMPTOM] Conscious[/SIGN_SYMPTOM],[SIGN_SYMPTOM] lucid[/SIGN_SYMPTOM],[SIGN_SYMPTOM] oriented[/SIGN_SYMPTOM], not[SIGN_SYMPTOM] agitated[/SIGN_SYMPTOM].",
+        "reasoning": "The note states the patient is conscious, lucid, and oriented."
+      },
+      {
+        "report_index": 7,
+        "triplet": [
+          "patient",
+          "is",
+          "alert"
+        ],
+        "evidence": "patient alert",
+        "reasoning": "The patient is described as 'alert,' indicating a normal level of consciousness."
+      },
+      {
+        "report_index": 7,
+        "triplet": [
+          "patient",
+          "is",
+          "oriented"
+        ],
+        "evidence": "oriented",
+        "reasoning": "The patient is noted to be 'oriented,' further supporting the assessment of a normal level of consciousness."
+      },
+      {
+        "report_index": 8,
+        "triplet": [
+          "Alert",
+          "is a state of",
+          "oriented"
+        ],
+        "evidence": "Alert, oriented",
+        "reasoning": "The patient is described as 'alert' and 'oriented,' which indicates they are fully conscious."
+      },
+      {
+        "report_index": 9,
+        "triplet": [
+          "Patient",
+          "is oriented to",
+          "time/place"
+        ],
+        "evidence": "oriented to time/place",
+        "reasoning": "The patient is described as alert and oriented to time and place, indicating a normal level of consciousness."
+      }
+    ]
+  },
+  "heart rate": {
+    "total_occurrences": 5,
+    "total_triplets": 5,
+    "reports_appearing_in": [
+      0,
+      4,
+      7,
+      8,
+      9
+    ],
+    "all_triplets": [
+      {
+        "report_index": 0,
+        "triplet": [
+          "HR",
+          "is",
+          "80 bpm"
+        ],
+        "evidence": "[DIAGNOSTIC_PROCEDURE] HR[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 80 bpm[/LAB_VALUE]",
+        "reasoning": "The heart rate is recorded as 80 beats per minute, indicating a normal rate."
+      },
+      {
+        "report_index": 4,
+        "triplet": [
+          "HR",
+          "measured at",
+          "89"
+        ],
+        "evidence": "[DIAGNOSTIC_PROCEDURE] HR [DIAGNOSTIC_PROCEDURE][LAB_VALUE] 89 [LAB_VALUE]",
+        "reasoning": "The patient's heart rate is measured at 89, which falls within the normal range of 60-100 beats per minute."
+      },
+      {
+        "report_index": 7,
+        "triplet": [
+          "HR",
+          "is",
+          "64"
+        ],
+        "evidence": "HR 64",
+        "reasoning": "The heart rate is recorded as '64,' which falls within the normal range for a resting adult."
+      },
+      {
+        "report_index": 8,
+        "triplet": [
+          "HR",
+          "is a heart rate of",
+          "78r bpm"
+        ],
+        "evidence": "HR 78r bpm",
+        "reasoning": "The patient's heart rate is recorded as '78r bpm,' which falls within the normal range, indicating normocardia."
+      },
+      {
+        "report_index": 9,
+        "triplet": [
+          "Heart Rate",
+          "is",
+          "tachycardic"
+        ],
+        "evidence": "Cardiac examination: tachycardic",
+        "reasoning": "The cardiac examination notes that the patient is tachycardic, indicating an elevated heart rate."
+      }
+    ]
+  },
+  "blood pressure": {
+    "total_occurrences": 5,
+    "total_triplets": 5,
+    "reports_appearing_in": [
+      0,
+      4,
+      7,
+      8,
+      9
+    ],
+    "all_triplets": [
+      {
+        "report_index": 0,
+        "triplet": [
+          "BP",
+          "is",
+          "120/80 mm/hg"
+        ],
+        "evidence": "[DIAGNOSTIC_PROCEDURE] BP[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 120/80 mm/hg[/LAB_VALUE]",
+        "reasoning": "The blood pressure is recorded as 120/80 mm/hg, indicating a normal reading."
+      },
+      {
+        "report_index": 4,
+        "triplet": [
+          "BP",
+          "measured at",
+          "160/90 mmHg"
+        ],
+        "evidence": "[DIAGNOSTIC_PROCEDURE] BP [DIAGNOSTIC_PROCEDURE][LAB_VALUE] 160/90 mmHg [LAB_VALUE]",
+        "reasoning": "The patient's blood pressure is measured at 160/90 mmHg, which indicates hypertension."
+      },
+      {
+        "report_index": 7,
+        "triplet": [
+          "BP",
+          "is",
+          "131/84"
+        ],
+        "evidence": "BP 131/84",
+        "reasoning": "The blood pressure is recorded as '131/84,' which is within the normal range for a resting adult."
+      },
+      {
+        "report_index": 8,
+        "triplet": [
+          "BP",
+          "is a blood pressure of",
+          "150/80 mmHg"
+        ],
+        "evidence": "BP 150/80 mmHg",
+        "reasoning": "The patient's blood pressure is recorded as '150/80 mmHg,' which indicates hypertension."
+      },
+      {
+        "report_index": 9,
+        "triplet": [
+          "Blood Pressure",
+          "is",
+          "130/90 mmHg"
+        ],
+        "evidence": "BP: 130/90 mmHg",
+        "reasoning": "The blood pressure is recorded as 130/90 mmHg, which falls within the normal range of 90-120/60-80 mmHg."
+      }
+    ]
+  },
+  "spo2": {
+    "total_occurrences": 5,
+    "total_triplets": 5,
+    "reports_appearing_in": [
+      0,
+      4,
+      7,
+      8,
+      9
+    ],
+    "all_triplets": [
+      {
+        "report_index": 0,
+        "triplet": [
+          "SpO2",
+          "is",
+          "99%"
+        ],
+        "evidence": "[DIAGNOSTIC_PROCEDURE] SpO2[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 99%[/LAB_VALUE]",
+        "reasoning": "The oxygen saturation is recorded as 99%, indicating a normal level."
+      },
+      {
+        "report_index": 4,
+        "triplet": [
+          "SO2",
+          "measured at",
+          "96%"
+        ],
+        "evidence": "[DIAGNOSTIC_PROCEDURE] SO2 [DIAGNOSTIC_PROCEDURE]:[LAB_VALUE] 96% [LAB_VALUE]",
+        "reasoning": "The patient's oxygen saturation is measured at 96%, which falls within the normal range of 95-100%."
+      },
+      {
+        "report_index": 7,
+        "triplet": [
+          "SpO2",
+          "is",
+          "97%"
+        ],
+        "evidence": "SpO2 97%",
+        "reasoning": "The SpO2 level is recorded as '97%,' which is within the normal range for oxygen saturation."
+      },
+      {
+        "report_index": 8,
+        "triplet": [
+          "SpO2",
+          "is an oxygen saturation of",
+          "96%"
+        ],
+        "evidence": "SpO2 96% on room air",
+        "reasoning": "The patient's SpO2 is recorded as '96%' on room air, which aligns with the annotation."
+      },
+      {
+        "report_index": 9,
+        "triplet": [
+          "SpO2",
+          "is",
+          "97%"
+        ],
+        "evidence": "SatO2: 97% on room air",
+        "reasoning": "The SpO2 is recorded as 97% on room air, which falls within the normal range of 95-100%."
+      }
+    ]
+  },
+  "history of allergy": {
+    "total_occurrences": 3,
+    "total_triplets": 3,
+    "reports_appearing_in": [
+      0,
+      1,
+      3
+    ],
+    "all_triplets": [
+      {
+        "report_index": 0,
+        "triplet": [
+          "ALLERGIES",
+          "are",
+          "none known"
+        ],
+        "evidence": "[SIGN_SYMPTOM]ERGIES[/SIGN_SYMPTOM]: none known",
+        "reasoning": "The note explicitly states that there are no known allergies."
+      },
+      {
+        "report_index": 1,
+        "triplet": [
+          "allergy",
+          "to",
+          "insect venom"
+        ],
+        "evidence": "[DISEASE_DISORDER] allergy[/DISEASE_DISORDER][DETAILED_DESCRIPTION] to[/DETAILED_DESCRIPTION][DETAILED_DESCRIPTION] insect venom[/DETAILED_DESCRIPTION]",
+        "reasoning": "The text explicitly states the patient has an allergy to insect venom, confirming a history of allergy."
+      },
+      {
+        "report_index": 3,
+        "triplet": [
+          "Allergies",
+          "status",
+          "no known drug allergies"
+        ],
+        "evidence": "Allergies: No known drug allergies",
+        "reasoning": "The note explicitly states there are no known drug allergies, confirming the absence of a history of allergy."
+      }
+    ]
+  },
+  "poly-pharmacological therapy": {
+    "total_occurrences": 3,
+    "total_triplets": 3,
+    "reports_appearing_in": [
+      0,
+      3,
+      4
+    ],
+    "all_triplets": [
+      {
+        "report_index": 0,
+        "triplet": [
+          "Therapy",
+          "includes",
+          "multiple medications"
+        ],
+        "evidence": "[MEDICATION] metformin[/MEDICATION][DOSAGE] 500 mg[/DOSAGE],[MEDICATION] iperten[/MEDICATION][DOSAGE] 1/2 tablet[/DOSAGE],[MEDICATION] enalapril[/MEDICATION][DOSAGE] 5 mg[/DOSAGE],[MEDICATION] omnic[/MEDICATION][DOSAGE] 0.4 mg[/DOSAGE],[MEDICATION] seloken[/MEDICATION][DOSAGE] 100 mg 1/2 tablet x 2[/DOSAGE],[MEDICATION] cardioASA[/MEDICATION],[MEDICATION] torvast[/MEDICATION][DOSAGE] 20 mg[/DOSAGE],[MEDICATION] contramala[/MEDICATION][DOSAGE] 15 drops[/DOSAGE],[MEDICATION] tachipirina AD[/MEDICATION],[MEDICATION] omnepraozlo[/MEDICATION][DOSAGE] 20 mg[/DOSAGE]",
+        "reasoning": "The note lists multiple medications being taken, indicating poly-pharmacological therapy."
+      },
+      {
+        "report_index": 3,
+        "triplet": [
+          "therapy",
+          "includes multiple medications",
+          "warfarin, ASA, aldactone, bisoprolol, lansoprazole, pregabalin, Micardis plus"
+        ],
+        "evidence": "[MEDICATION] warfarin[/MEDICATION][DOSAGE] 5 mg[/DOSAGE][DOSAGE] 1+1/4 tablet[/DOSAGE],[MEDICATION] ASA[/MEDICATION][DOSAGE] 100 mg 1 tablet[/DOSAGE],[MEDICATION] aldactone[/MEDICATION][DOSAGE] 25 mg 1 tablet[/DOSAGE],[MEDICATION] bisoprolol[/MEDICATION][DOSAGE] 2.5 mg 1 tablet[/DOSAGE],[MEDICATION] lansoprazole[/MEDICATION][DOSAGE] 30 mg 1 tablet[/DOSAGE],[MEDICATION] pregabalin[/MEDICATION][DOSAGE] 75 mg 1 tablet[/DOSAGE],[MEDICATION] Micardis plus[/MEDICATION][DOSAGE] 80/12.5 mg 1 tablet[/DOSAGE]",
+        "reasoning": "The presence of multiple medications in the therapy list indicates poly-pharmacological therapy."
+      },
+      {
+        "report_index": 4,
+        "triplet": [
+          "losartan",
+          "used to treat",
+          "hypertension"
+        ],
+        "evidence": "[MEDICATION] losartan [MEDICATION][DOSAGE] 100 1 tablet [DOSAGE]",
+        "reasoning": "The patient is on multiple medications, including losartan for hypertension, indicating poly-pharmacological therapy."
+      }
+    ]
+  },
+  "antihypertensive therapy": {
+    "total_occurrences": 3,
+    "total_triplets": 3,
+    "reports_appearing_in": [
+      0,
+      3,
+      4
+    ],
+    "all_triplets": [
+      {
+        "report_index": 0,
+        "triplet": [
+          "Therapy",
+          "includes",
+          "iperten"
+        ],
+        "evidence": "[MEDICATION] iperten[/MEDICATION][DOSAGE] 1/2 tablet[/DOSAGE]",
+        "reasoning": "The presence of 'iperten' in the therapy list indicates antihypertensive treatment."
+      },
+      {
+        "report_index": 3,
+        "triplet": [
+          "Micardis plus",
+          "is an antihypertensive medication",
+          "therapy"
+        ],
+        "evidence": "[MEDICATION] Micardis plus[/MEDICATION][DOSAGE] 80/12.5 mg 1 tablet[/DOSAGE]",
+        "reasoning": "Micardis plus is a combination of an ACE inhibitor and a diuretic, commonly used to treat hypertension."
+      },
+      {
+        "report_index": 4,
+        "triplet": [
+          "losartan",
+          "used to treat",
+          "hypertension"
+        ],
+        "evidence": "[MEDICATION] losartan [MEDICATION][DOSAGE] 100 1 tablet [DOSAGE]",
+        "reasoning": "The patient is on losartan, an antihypertensive medication, which supports the presence of antihypertensive therapy."
+      }
+    ]
+  },
+  "body temperature": {
+    "total_occurrences": 3,
+    "total_triplets": 3,
+    "reports_appearing_in": [
+      8,
+      9,
+      7
+    ],
+    "all_triplets": [
+      {
+        "report_index": 7,
+        "triplet": [
+          "patient",
+          "has",
+          "no fever"
+        ],
+        "evidence": "no signs of fever",
+        "reasoning": "There are no signs of fever, indicating that the patient's body temperature is within normal limits."
+      },
+      {
+        "report_index": 8,
+        "triplet": [
+          "Temp",
+          "is a body temperature of",
+          "36.8"
+        ],
+        "evidence": "Temp 36.8",
+        "reasoning": "The patient's body temperature is recorded as '36.8,' which falls within the normal range, indicating normothermia."
+      },
+      {
+        "report_index": 9,
+        "triplet": [
+          "Body Temperature",
+          "is",
+          "37.5°C"
+        ],
+        "evidence": "T: 37.5°C",
+        "reasoning": "The body temperature is recorded as 37.5°C, which falls within the normal range of 36.1°C to 37.8°C."
+      }
+    ]
+  },
+  "chronic metabolic failure": {
+    "total_occurrences": 2,
+    "total_triplets": 2,
+    "reports_appearing_in": [
+      0,
+      3
+    ],
+    "all_triplets": [
+      {
+        "report_index": 0,
+        "triplet": [
+          "Diabetes mellitus type 2",
+          "is a type of",
+          "metabolic disorder"
+        ],
+        "evidence": "-[DISEASE_DISORDER] Diabetes mellitus type 2[/DISEASE_DISORDER]",
+        "reasoning": "The presence of diabetes mellitus type 2 in the past medical history indicates chronic metabolic failure."
+      },
+      {
+        "report_index": 3,
+        "triplet": [
+          "Hyperthyroidism",
+          "causes",
+          "metabolic failure"
+        ],
+        "evidence": "-[DISEASE_DISORDER] Hyperthyroidism[/DISEASE_DISORDER]",
+        "reasoning": "Hyperthyroidism is a condition that can lead to chronic metabolic failure due to its impact on metabolism."
+      }
+    ]
+  },
+  "respiratory rate": {
+    "total_occurrences": 2,
+    "total_triplets": 2,
+    "reports_appearing_in": [
+      0,
+      8
+    ],
+    "all_triplets": [
+      {
+        "report_index": 0,
+        "triplet": [
+          "RF",
+          "is",
+          "14 apm"
+        ],
+        "evidence": "[DIAGNOSTIC_PROCEDURE] RF[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 14 apm[/LAB_VALUE]",
+        "reasoning": "The respiratory rate is recorded as 14 breaths per minute, indicating a normal rate."
+      },
+      {
+        "report_index": 8,
+        "triplet": [
+          "RF",
+          "is a respiratory rate of",
+          "18 apm"
+        ],
+        "evidence": "RF 18 apm",
+        "reasoning": "The patient's respiratory rate is recorded as '18 apm,' which falls within the normal range, indicating eupnea."
+      }
+    ]
+  },
+  "active neoplasia": {
+    "total_occurrences": 2,
+    "total_triplets": 2,
+    "reports_appearing_in": [
+      1,
+      4
+    ],
+    "all_triplets": [
+      {
+        "report_index": 1,
+        "triplet": [
+          "prostate cancer excision",
+          "treated_with",
+          "therapy"
+        ],
+        "evidence": "previous[THERAPEUTIC_PROCEDURE] prostate cancer excision[/THERAPEUTIC_PROCEDURE] (2012) with[LAB_VALUE] normal[/LAB_VALUE][CLINICAL_EVENT] follow[/CLINICAL_EVENT]-[CLINICAL_EVENT]up[/CLINICAL_EVENT]",
+        "reasoning": "The mention of 'prostate cancer excision' in 2012 followed by a normal follow-up indicates that the neoplasm was treated and is not currently active."
+      },
+      {
+        "report_index": 4,
+        "triplet": [
+          "adenocarcinoma of the rectum",
+          "treated with",
+          "FOLFOX chemotherapy"
+        ],
+        "evidence": "in past medical history: [HISTORY] arterial [DISEASE_DISORDER] hypertension [DISEASE_DISORDER], in 2018[DETAILED_DESCRIPTION] subtotal [DETAILED_DESCRIPTION][THERAPEUTIC_PROCEDURE] colectomy [THERAPEUTIC_PROCEDURE] for[DISEASE_DISORDER] adenocarcinoma [DISEASE_DISORDER] of the[BIOLOGICAL_STRUCTURE] rectum [BIOLOGICAL_STRUCTURE] followed by a cycle of[MEDICATION] FOLFOX chemotherapy [MEDICATION]",
+        "reasoning": "The patient has a history of adenocarcinoma of the rectum, which was treated with FOLFOX chemotherapy in 2018. This indicates that the neoplasia is no longer active."
+      }
+    ]
+  },
+  "anticoagulants or antiplatelet drug therapy": {
+    "total_occurrences": 2,
+    "total_triplets": 2,
+    "reports_appearing_in": [
+      3,
+      4
+    ],
+    "all_triplets": [
+      {
+        "report_index": 3,
+        "triplet": [
+          "warfarin",
+          "is an anticoagulant",
+          "therapy"
+        ],
+        "evidence": "[MEDICATION] warfarin[/MEDICATION][DOSAGE] 5 mg[/DOSAGE][DOSAGE] 1+1/4 tablet[/DOSAGE]",
+        "reasoning": "Warfarin is a well-known anticoagulant medication, and its presence in the therapy list confirms this feature."
+      },
+      {
+        "report_index": 4,
+        "triplet": [
+          "dabigatran",
+          "used to treat",
+          "AF"
+        ],
+        "evidence": "[MEDICATION] dabigatran [MEDICATION] started.",
+        "reasoning": "The patient is on dabigatran, an anticoagulant medication, which supports the presence of anticoagulants or antiplatelet drug therapy."
+      }
+    ]
+  },
+  "head or other districts trauma": {
+    "total_occurrences": 1,
+    "total_triplets": 1,
+    "reports_appearing_in": [
+      0
+    ],
+    "all_triplets": [
+      {
+        "report_index": 0,
+        "triplet": [
+          "Head",
+          "trauma",
+          "occipital region"
+        ],
+        "evidence": "-[BIOLOGICAL_STRUCTURE] occipital region[/BIOLOGICAL_STRUCTURE] with no[SIGN_SYMPTOM] loss of consciousness[/SIGN_SYMPTOM] or[DISEASE_DISORDER] concussion[/DISEASE_DISORDER]",
+        "reasoning": "The note mentions trauma to the occipital region."
+      }
+    ]
+  },
+  "agitation": {
+    "total_occurrences": 1,
+    "total_triplets": 1,
+    "reports_appearing_in": [
+      0
+    ],
+    "all_triplets": [
+      {
+        "report_index": 0,
+        "triplet": [
+          "Patient",
+          "is not",
+          "agitated"
+        ],
+        "evidence": "[SIGN_SYMPTOM] Conscious[/SIGN_SYMPTOM],[SIGN_SYMPTOM] lucid[/SIGN_SYMPTOM],[SIGN_SYMPTOM] oriented[/SIGN_SYMPTOM], not[SIGN_SYMPTOM] agitated[/SIGN_SYMPTOM].",
+        "reasoning": "The note states the patient is not agitated."
+      }
+    ]
+  },
+  "hemoglobin": {
+    "total_occurrences": 1,
+    "total_triplets": 1,
+    "reports_appearing_in": [
+      1
+    ],
+    "all_triplets": [
+      {
+        "report_index": 1,
+        "triplet": [
+          "HGT",
+          "value",
+          "78"
+        ],
+        "evidence": "[DIAGNOSTIC_PROCEDURE] HGT[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 78[/LAB_VALUE]",
+        "reasoning": "The hemoglobin level is reported as 78, which aligns with the ground truth annotation of 'n.n'."
+      }
+    ]
+  },
+  "c-reactive protein": {
+    "total_occurrences": 1,
+    "total_triplets": 1,
+    "reports_appearing_in": [
+      1
+    ],
+    "all_triplets": [
+      {
+        "report_index": 1,
+        "triplet": [
+          "CRP",
+          "value",
+          "nothing"
+        ],
+        "evidence": "[DIAGNOSTIC_PROCEDURE] CRP[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] nothing[/LAB_VALUE] to note",
+        "reasoning": "The c-reactive protein level is reported as 'nothing', which aligns with the ground truth annotation of 'n.n.'."
+      }
+    ]
+  },
+  "brain ct scan, any abnormality": {
+    "total_occurrences": 1,
+    "total_triplets": 1,
+    "reports_appearing_in": [
+      1
+    ],
+    "all_triplets": [
+      {
+        "report_index": 1,
+        "triplet": [
+          "CT",
+          "result",
+          "not significant"
+        ],
+        "evidence": "[DIAGNOSTIC_PROCEDURE] CT[/DIAGNOSTIC_PROCEDURE][BIOLOGICAL_STRUCTURE] brain[/BIOLOGICAL_STRUCTURE] +[BIOLOGICAL_STRUCTURE] eye sockets[/BIOLOGICAL_STRUCTURE][LAB_VALUE] not significant[/LAB_VALUE]",
+        "reasoning": "The CT scan of the brain and eye sockets shows no significant abnormalities, confirming the ground truth annotation."
+      }
+    ]
+  },
+  "history of recent trauma": {
+    "total_occurrences": 1,
+    "total_triplets": 1,
+    "reports_appearing_in": [
+      2
+    ],
+    "all_triplets": [
+      {
+        "report_index": 2,
+        "triplet": [
+          "Patient",
+          "admitted for",
+          "left knee injury"
+        ],
+        "evidence": "Patient admitted to the CTO ER for left knee injury, X-ray evidence of supracondylar fracture of the left femur.",
+        "reasoning": "The admission to the emergency room due to a left knee injury and subsequent diagnosis of a fracture indicates recent trauma."
+      }
+    ]
+  },
+  "diffuse vascular disease": {
+    "total_occurrences": 1,
+    "total_triplets": 1,
+    "reports_appearing_in": [
+      3
+    ],
+    "all_triplets": [
+      {
+        "report_index": 3,
+        "triplet": [
+          "Arterial hypertension",
+          "is a form of",
+          "vascular disease"
+        ],
+        "evidence": "-[DETAILED_DESCRIPTION] Arterial[/DETAILED_DESCRIPTION][DISEASE_DISORDER] hypertension[/DISEASE_DISORDER]",
+        "reasoning": "Hypertension is a type of vascular disease, and its presence in the medical history supports this feature."
+      }
+    ]
+  },
+  "presence of dyspnea": {
+    "total_occurrences": 1,
+    "total_triplets": 1,
+    "reports_appearing_in": [
+      4
+    ],
+    "all_triplets": [
+      {
+        "report_index": 4,
+        "triplet": [
+          "dyspnea",
+          "present with",
+          "exertion"
+        ],
+        "evidence": "[SIGN_SYMPTOM] dyspnea [SIGN_SYMPTOM] upon[DETAILED_DESCRIPTION] exertion [DETAILED_DESCRIPTION]",
+        "reasoning": "The patient reports experiencing dyspnea upon exertion, indicating the presence of dyspnea."
+      }
+    ]
+  },
+  "ecg, any abnormality": {
+    "total_occurrences": 1,
+    "total_triplets": 1,
+    "reports_appearing_in": [
+      4
+    ],
+    "all_triplets": [
+      {
+        "report_index": 4,
+        "triplet": [
+          "AF",
+          "diagnosed with",
+          "cardiological evaluation"
+        ],
+        "evidence": "[SIGN_SYMPTOM] AF [SIGN_SYMPTOM],[MEDICATION] dabigatran [MEDICATION] started.",
+        "reasoning": "The patient has been diagnosed with atrial fibrillation (AF), which is an abnormality on the ECG."
+      }
+    ]
+  },
+  "creatinine": {
+    "total_occurrences": 1,
+    "total_triplets": 1,
+    "reports_appearing_in": [
+      4
+    ],
+    "all_triplets": [
+      {
+        "report_index": 4,
+        "triplet": [
+          "creat",
+          "measured at",
+          "1.6 mg/dl"
+        ],
+        "evidence": "[LAB_VALUE] creat [LAB_VALUE][LAB_VALUE] 1.6 mg/dl [LAB_VALUE]",
+        "reasoning": "The patient's creatinine level is measured at 1.6 mg/dl."
+      }
+    ]
+  },
+  "cardiac ultrasound, any abnormality": {
+    "total_occurrences": 1,
+    "total_triplets": 1,
+    "reports_appearing_in": [
+      4
+    ],
+    "all_triplets": [
+      {
+        "report_index": 4,
+        "triplet": [
+          "pericardial effusion",
+          "diagnosed with",
+          "echocardiogram"
+        ],
+        "evidence": "[SIGN_SYMPTOM] moderate [SEVERITY][SIGN_SYMPTOM] pericardial effusion [SIGN_SYMPTOM], max[DISTANCE] 18 mm [DISTANCE] in[BIOLOGICAL_STRUCTURE] posterolateral site [BIOLOGICAL_STRUCTURE],[DETAILED_DESCRIPTION] organized [DETAILED_DESCRIPTION], no[SIGN_SYMPTOM] tamponade [SIGN_SYMPTOM].",
+        "reasoning": "The patient has a moderate pericardial effusion, which is an abnormality detected on the echocardiogram."
+      }
+    ]
+  }
+}

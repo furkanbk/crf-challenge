@@ -1,0 +1,224 @@
+id:ID,type:TYPE,:START_ID,:END_ID,relation_text,feature_context,report_id,evidence,reasoning,role
+rel_has_feature_0_chronic_metabolic_failure,HAS_FEATURE,report_0,feature_chronic_metabolic_failure,,,,,,
+rel_0,IS_A_TYPE_OF,entity_diabetes_mellitus_type_2_0,entity_metabolic_disorder_1,is a type of,chronic metabolic failure,0,-[DISEASE_DISORDER] Diabetes mellitus type 2[/DISEASE_DISORDER],The presence of diabetes mellitus type 2 in the past medical history indicates chronic metabolic failure.,
+rel_entity_feature_0,RELATED_TO_FEATURE,entity_diabetes_mellitus_type_2_0,feature_chronic_metabolic_failure,,,,,,subject
+rel_entity_feature_1,RELATED_TO_FEATURE,entity_metabolic_disorder_1,feature_chronic_metabolic_failure,,,,,,object
+rel_has_feature_0_history_of_allergy,HAS_FEATURE,report_0,feature_history_of_allergy,,,,,,
+rel_2,ARE,entity_allergies_2,entity_none_known_3,are,history of allergy,0,[SIGN_SYMPTOM]ERGIES[/SIGN_SYMPTOM]: none known,The note explicitly states that there are no known allergies.,
+rel_entity_feature_2,RELATED_TO_FEATURE,entity_allergies_2,feature_history_of_allergy,,,,,,subject
+rel_entity_feature_3,RELATED_TO_FEATURE,entity_none_known_3,feature_history_of_allergy,,,,,,object
+rel_has_feature_0_poly_pharmacological_therapy,HAS_FEATURE,report_0,feature_poly_pharmacological_therapy,,,,,,
+rel_4,INCLUDES,entity_therapy_4,entity_multiple_medications_5,includes,poly-pharmacological therapy,0,"[MEDICATION] metformin[/MEDICATION][DOSAGE] 500 mg[/DOSAGE],[MEDICATION] iperten[/MEDICATION][DOSAGE] 1/2 tablet[/DOSAGE],[MEDICATION] enalapril[/MEDICATION][DOSAGE] 5 mg[/DOSAGE],[MEDICATION] omnic[/MEDICATION][DOSAGE] 0.4 mg[/DOSAGE],[MEDICATION] seloken[/MEDICATION][DOSAGE] 100 mg 1/2 tablet x 2[/DOSAGE],[MEDICATION] cardioASA[/MEDICATION],[MEDICATION] torvast[/MEDICATION][DOSAGE] 20 mg[/DOSAGE],[MEDICATION] contramala[/MEDICATION][DOSAGE] 15 drops[/DOSAGE],[MEDICATION] tachipirina AD[/MEDICATION],[MEDICATION] omnepraozlo[/MEDICATION][DOSAGE] 20 mg[/DOSAGE]","The note lists multiple medications being taken, indicating poly-pharmacological therapy.",
+rel_entity_feature_4,RELATED_TO_FEATURE,entity_therapy_4,feature_poly_pharmacological_therapy,,,,,,subject
+rel_entity_feature_5,RELATED_TO_FEATURE,entity_multiple_medications_5,feature_poly_pharmacological_therapy,,,,,,object
+rel_has_feature_0_antihypertensive_therapy,HAS_FEATURE,report_0,feature_antihypertensive_therapy,,,,,,
+rel_6,INCLUDES,entity_therapy_6,entity_iperten_7,includes,antihypertensive therapy,0,[MEDICATION] iperten[/MEDICATION][DOSAGE] 1/2 tablet[/DOSAGE],The presence of 'iperten' in the therapy list indicates antihypertensive treatment.,
+rel_entity_feature_6,RELATED_TO_FEATURE,entity_therapy_6,feature_antihypertensive_therapy,,,,,,subject
+rel_entity_feature_7,RELATED_TO_FEATURE,entity_iperten_7,feature_antihypertensive_therapy,,,,,,object
+rel_has_feature_0_cardiovascular_diseases,HAS_FEATURE,report_0,feature_cardiovascular_diseases,,,,,,
+rel_8,INCLUDES,entity_past_medical_history_8,entity_cad_9,includes,cardiovascular diseases,0,-[DISEASE_DISORDER] CAD[/DISEASE_DISORDER] (reports quadruple[DISEASE_DISORDER] B[/DISEASE_DISORDER][SIGN_SYMPTOM]PAC[/SIGN_SYMPTOM]),"The note mentions 'CAD' in the past medical history, indicating cardiovascular disease.",
+rel_entity_feature_8,RELATED_TO_FEATURE,entity_past_medical_history_8,feature_cardiovascular_diseases,,,,,,subject
+rel_entity_feature_9,RELATED_TO_FEATURE,entity_cad_9,feature_cardiovascular_diseases,,,,,,object
+rel_has_feature_0_level_of_consciousness,HAS_FEATURE,report_0,feature_level_of_consciousness,,,,,,
+rel_10,IS,entity_patient_10,entity_conscious_11,is,level of consciousness,0,"[SIGN_SYMPTOM] Conscious[/SIGN_SYMPTOM],[SIGN_SYMPTOM] lucid[/SIGN_SYMPTOM],[SIGN_SYMPTOM] oriented[/SIGN_SYMPTOM], not[SIGN_SYMPTOM] agitated[/SIGN_SYMPTOM].","The note states the patient is conscious, lucid, and oriented.",
+rel_entity_feature_10,RELATED_TO_FEATURE,entity_patient_10,feature_level_of_consciousness,,,,,,subject
+rel_entity_feature_11,RELATED_TO_FEATURE,entity_conscious_11,feature_level_of_consciousness,,,,,,object
+rel_has_feature_0_respiratory_rate,HAS_FEATURE,report_0,feature_respiratory_rate,,,,,,
+rel_12,IS,entity_rf_12,entity_14_apm_13,is,respiratory rate,0,[DIAGNOSTIC_PROCEDURE] RF[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 14 apm[/LAB_VALUE],"The respiratory rate is recorded as 14 breaths per minute, indicating a normal rate.",
+rel_entity_feature_12,RELATED_TO_FEATURE,entity_rf_12,feature_respiratory_rate,,,,,,subject
+rel_entity_feature_13,RELATED_TO_FEATURE,entity_14_apm_13,feature_respiratory_rate,,,,,,object
+rel_has_feature_0_heart_rate,HAS_FEATURE,report_0,feature_heart_rate,,,,,,
+rel_14,IS,entity_hr_14,entity_80_bpm_15,is,heart rate,0,[DIAGNOSTIC_PROCEDURE] HR[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 80 bpm[/LAB_VALUE],"The heart rate is recorded as 80 beats per minute, indicating a normal rate.",
+rel_entity_feature_14,RELATED_TO_FEATURE,entity_hr_14,feature_heart_rate,,,,,,subject
+rel_entity_feature_15,RELATED_TO_FEATURE,entity_80_bpm_15,feature_heart_rate,,,,,,object
+rel_has_feature_0_blood_pressure,HAS_FEATURE,report_0,feature_blood_pressure,,,,,,
+rel_16,IS,entity_bp_16,entity_120_80_mm_hg_17,is,blood pressure,0,[DIAGNOSTIC_PROCEDURE] BP[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 120/80 mm/hg[/LAB_VALUE],"The blood pressure is recorded as 120/80 mm/hg, indicating a normal reading.",
+rel_entity_feature_16,RELATED_TO_FEATURE,entity_bp_16,feature_blood_pressure,,,,,,subject
+rel_entity_feature_17,RELATED_TO_FEATURE,entity_120_80_mm_hg_17,feature_blood_pressure,,,,,,object
+rel_has_feature_0_head_or_other_districts_trauma,HAS_FEATURE,report_0,feature_head_or_other_districts_trauma,,,,,,
+rel_18,TRAUMA,entity_head_18,entity_occipital_region_19,trauma,head or other districts trauma,0,-[BIOLOGICAL_STRUCTURE] occipital region[/BIOLOGICAL_STRUCTURE] with no[SIGN_SYMPTOM] loss of consciousness[/SIGN_SYMPTOM] or[DISEASE_DISORDER] concussion[/DISEASE_DISORDER],The note mentions trauma to the occipital region.,
+rel_entity_feature_18,RELATED_TO_FEATURE,entity_head_18,feature_head_or_other_districts_trauma,,,,,,subject
+rel_entity_feature_19,RELATED_TO_FEATURE,entity_occipital_region_19,feature_head_or_other_districts_trauma,,,,,,object
+rel_has_feature_0_spo2,HAS_FEATURE,report_0,feature_spo2,,,,,,
+rel_20,IS,entity_spo2_20,entity_99__21,is,spo2,0,[DIAGNOSTIC_PROCEDURE] SpO2[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 99%[/LAB_VALUE],"The oxygen saturation is recorded as 99%, indicating a normal level.",
+rel_entity_feature_20,RELATED_TO_FEATURE,entity_spo2_20,feature_spo2,,,,,,subject
+rel_entity_feature_21,RELATED_TO_FEATURE,entity_99__21,feature_spo2,,,,,,object
+rel_has_feature_0_agitation,HAS_FEATURE,report_0,feature_agitation,,,,,,
+rel_22,IS_NOT,entity_patient_22,entity_agitated_23,is not,agitation,0,"[SIGN_SYMPTOM] Conscious[/SIGN_SYMPTOM],[SIGN_SYMPTOM] lucid[/SIGN_SYMPTOM],[SIGN_SYMPTOM] oriented[/SIGN_SYMPTOM], not[SIGN_SYMPTOM] agitated[/SIGN_SYMPTOM].",The note states the patient is not agitated.,
+rel_entity_feature_22,RELATED_TO_FEATURE,entity_patient_22,feature_agitation,,,,,,subject
+rel_entity_feature_23,RELATED_TO_FEATURE,entity_agitated_23,feature_agitation,,,,,,object
+rel_has_feature_1_active_neoplasia,HAS_FEATURE,report_1,feature_active_neoplasia,,,,,,
+rel_24,TREATED_WITH,entity_prostate_cancer_excision_24,entity_therapy_25,treated_with,active neoplasia,1,previous[THERAPEUTIC_PROCEDURE] prostate cancer excision[/THERAPEUTIC_PROCEDURE] (2012) with[LAB_VALUE] normal[/LAB_VALUE][CLINICAL_EVENT] follow[/CLINICAL_EVENT]-[CLINICAL_EVENT]up[/CLINICAL_EVENT],The mention of 'prostate cancer excision' in 2012 followed by a normal follow-up indicates that the neoplasm was treated and is not currently active.,
+rel_entity_feature_24,RELATED_TO_FEATURE,entity_prostate_cancer_excision_24,feature_active_neoplasia,,,,,,subject
+rel_entity_feature_25,RELATED_TO_FEATURE,entity_therapy_25,feature_active_neoplasia,,,,,,object
+rel_has_feature_1_history_of_allergy,HAS_FEATURE,report_1,feature_history_of_allergy,,,,,,
+rel_26,TO,entity_allergy_26,entity_insect_venom_27,to,history of allergy,1,[DISEASE_DISORDER] allergy[/DISEASE_DISORDER][DETAILED_DESCRIPTION] to[/DETAILED_DESCRIPTION][DETAILED_DESCRIPTION] insect venom[/DETAILED_DESCRIPTION],"The text explicitly states the patient has an allergy to insect venom, confirming a history of allergy.",
+rel_entity_feature_26,RELATED_TO_FEATURE,entity_allergy_26,feature_history_of_allergy,,,,,,subject
+rel_entity_feature_27,RELATED_TO_FEATURE,entity_insect_venom_27,feature_history_of_allergy,,,,,,object
+rel_has_feature_1_cardiovascular_diseases,HAS_FEATURE,report_1,feature_cardiovascular_diseases,,,,,,
+rel_28,ON_THERAPY,entity_hypertensive_28,entity_therapy_29,on therapy,cardiovascular diseases,1,[DISEASE_DISORDER] hypertensive[/DISEASE_DISORDER] on therapy,"The patient is described as being on therapy for hypertension, indicating the presence of cardiovascular disease.",
+rel_entity_feature_28,RELATED_TO_FEATURE,entity_hypertensive_28,feature_cardiovascular_diseases,,,,,,subject
+rel_entity_feature_29,RELATED_TO_FEATURE,entity_therapy_29,feature_cardiovascular_diseases,,,,,,object
+rel_has_feature_1_hemoglobin,HAS_FEATURE,report_1,feature_hemoglobin,,,,,,
+rel_30,VALUE,entity_hgt_30,entity_78_31,value,hemoglobin,1,[DIAGNOSTIC_PROCEDURE] HGT[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] 78[/LAB_VALUE],"The hemoglobin level is reported as 78, which aligns with the ground truth annotation of 'n.n'.",
+rel_entity_feature_30,RELATED_TO_FEATURE,entity_hgt_30,feature_hemoglobin,,,,,,subject
+rel_entity_feature_31,RELATED_TO_FEATURE,entity_78_31,feature_hemoglobin,,,,,,object
+rel_has_feature_1_c_reactive_protein,HAS_FEATURE,report_1,feature_c_reactive_protein,,,,,,
+rel_32,VALUE,entity_crp_32,entity_nothing_33,value,c-reactive protein,1,[DIAGNOSTIC_PROCEDURE] CRP[/DIAGNOSTIC_PROCEDURE][LAB_VALUE] nothing[/LAB_VALUE] to note,"The c-reactive protein level is reported as 'nothing', which aligns with the ground truth annotation of 'n.n.'.",
+rel_entity_feature_32,RELATED_TO_FEATURE,entity_crp_32,feature_c_reactive_protein,,,,,,subject
+rel_entity_feature_33,RELATED_TO_FEATURE,entity_nothing_33,feature_c_reactive_protein,,,,,,object
+rel_has_feature_1_brain_ct_scan__any_abnormality,HAS_FEATURE,report_1,feature_brain_ct_scan__any_abnormality,,,,,,
+rel_34,RESULT,entity_ct_34,entity_not_significant_35,result,"brain ct scan, any abnormality",1,[DIAGNOSTIC_PROCEDURE] CT[/DIAGNOSTIC_PROCEDURE][BIOLOGICAL_STRUCTURE] brain[/BIOLOGICAL_STRUCTURE] +[BIOLOGICAL_STRUCTURE] eye sockets[/BIOLOGICAL_STRUCTURE][LAB_VALUE] not significant[/LAB_VALUE],"The CT scan of the brain and eye sockets shows no significant abnormalities, confirming the ground truth annotation.",
+rel_entity_feature_34,RELATED_TO_FEATURE,entity_ct_34,feature_brain_ct_scan__any_abnormality,,,,,,subject
+rel_entity_feature_35,RELATED_TO_FEATURE,entity_not_significant_35,feature_brain_ct_scan__any_abnormality,,,,,,object
+rel_has_feature_2_history_of_recent_trauma,HAS_FEATURE,report_2,feature_history_of_recent_trauma,,,,,,
+rel_36,ADMITTED_FOR,entity_patient_36,entity_left_knee_injury_37,admitted for,history of recent trauma,2,"Patient admitted to the CTO ER for left knee injury, X-ray evidence of supracondylar fracture of the left femur.",The admission to the emergency room due to a left knee injury and subsequent diagnosis of a fracture indicates recent trauma.,
+rel_entity_feature_36,RELATED_TO_FEATURE,entity_patient_36,feature_history_of_recent_trauma,,,,,,subject
+rel_entity_feature_37,RELATED_TO_FEATURE,entity_left_knee_injury_37,feature_history_of_recent_trauma,,,,,,object
+rel_has_feature_2_cardiovascular_diseases,HAS_FEATURE,report_2,feature_cardiovascular_diseases,,,,,,
+rel_38,HAS_HISTORY_OF,entity_patient_38,entity_arterial_hypertension_39,has history of,cardiovascular diseases,2,"APR-2013 Subarachnoid hemorrhage, arterial hypertension, senile dementia, total left hip prosthesis, hypothyroidism",The mention of 'arterial hypertension' in the patient's medical history directly supports the presence of cardiovascular diseases.,
+rel_entity_feature_38,RELATED_TO_FEATURE,entity_patient_38,feature_cardiovascular_diseases,,,,,,subject
+rel_entity_feature_39,RELATED_TO_FEATURE,entity_arterial_hypertension_39,feature_cardiovascular_diseases,,,,,,object
+rel_has_feature_3_chronic_metabolic_failure,HAS_FEATURE,report_3,feature_chronic_metabolic_failure,,,,,,
+rel_40,CAUSES,entity_hyperthyroidism_40,entity_metabolic_failure_41,causes,chronic metabolic failure,3,-[DISEASE_DISORDER] Hyperthyroidism[/DISEASE_DISORDER],Hyperthyroidism is a condition that can lead to chronic metabolic failure due to its impact on metabolism.,
+rel_entity_feature_40,RELATED_TO_FEATURE,entity_hyperthyroidism_40,feature_chronic_metabolic_failure,,,,,,subject
+rel_entity_feature_41,RELATED_TO_FEATURE,entity_metabolic_failure_41,feature_chronic_metabolic_failure,,,,,,object
+rel_has_feature_3_history_of_allergy,HAS_FEATURE,report_3,feature_history_of_allergy,,,,,,
+rel_42,STATUS,entity_allergies_42,entity_no_known_drug_allergies_43,status,history of allergy,3,Allergies: No known drug allergies,"The note explicitly states there are no known drug allergies, confirming the absence of a history of allergy.",
+rel_entity_feature_42,RELATED_TO_FEATURE,entity_allergies_42,feature_history_of_allergy,,,,,,subject
+rel_entity_feature_43,RELATED_TO_FEATURE,entity_no_known_drug_allergies_43,feature_history_of_allergy,,,,,,object
+rel_has_feature_3_anticoagulants_or_antiplatelet_drug_therapy,HAS_FEATURE,report_3,feature_anticoagulants_or_antiplatelet_drug_therapy,,,,,,
+rel_44,IS_AN_ANTICOAGULANT,entity_warfarin_44,entity_therapy_45,is an anticoagulant,anticoagulants or antiplatelet drug therapy,3,[MEDICATION] warfarin[/MEDICATION][DOSAGE] 5 mg[/DOSAGE][DOSAGE] 1+1/4 tablet[/DOSAGE],"Warfarin is a well-known anticoagulant medication, and its presence in the therapy list confirms this feature.",
+rel_entity_feature_44,RELATED_TO_FEATURE,entity_warfarin_44,feature_anticoagulants_or_antiplatelet_drug_therapy,,,,,,subject
+rel_entity_feature_45,RELATED_TO_FEATURE,entity_therapy_45,feature_anticoagulants_or_antiplatelet_drug_therapy,,,,,,object
+rel_has_feature_3_poly_pharmacological_therapy,HAS_FEATURE,report_3,feature_poly_pharmacological_therapy,,,,,,
+rel_46,INCLUDES_MULTIPLE_MEDICATIONS,entity_therapy_46,entity_warfarin__asa__aldactone__bisoprolol__lansoprazole_47,includes multiple medications,poly-pharmacological therapy,3,"[MEDICATION] warfarin[/MEDICATION][DOSAGE] 5 mg[/DOSAGE][DOSAGE] 1+1/4 tablet[/DOSAGE],[MEDICATION] ASA[/MEDICATION][DOSAGE] 100 mg 1 tablet[/DOSAGE],[MEDICATION] aldactone[/MEDICATION][DOSAGE] 25 mg 1 tablet[/DOSAGE],[MEDICATION] bisoprolol[/MEDICATION][DOSAGE] 2.5 mg 1 tablet[/DOSAGE],[MEDICATION] lansoprazole[/MEDICATION][DOSAGE] 30 mg 1 tablet[/DOSAGE],[MEDICATION] pregabalin[/MEDICATION][DOSAGE] 75 mg 1 tablet[/DOSAGE],[MEDICATION] Micardis plus[/MEDICATION][DOSAGE] 80/12.5 mg 1 tablet[/DOSAGE]",The presence of multiple medications in the therapy list indicates poly-pharmacological therapy.,
+rel_entity_feature_46,RELATED_TO_FEATURE,entity_therapy_46,feature_poly_pharmacological_therapy,,,,,,subject
+rel_entity_feature_47,RELATED_TO_FEATURE,entity_warfarin__asa__aldactone__bisoprolol__lansoprazole_47,feature_poly_pharmacological_therapy,,,,,,object
+rel_has_feature_3_diffuse_vascular_disease,HAS_FEATURE,report_3,feature_diffuse_vascular_disease,,,,,,
+rel_48,IS_A_FORM_OF,entity_arterial_hypertension_48,entity_vascular_disease_49,is a form of,diffuse vascular disease,3,-[DETAILED_DESCRIPTION] Arterial[/DETAILED_DESCRIPTION][DISEASE_DISORDER] hypertension[/DISEASE_DISORDER],"Hypertension is a type of vascular disease, and its presence in the medical history supports this feature.",
+rel_entity_feature_48,RELATED_TO_FEATURE,entity_arterial_hypertension_48,feature_diffuse_vascular_disease,,,,,,subject
+rel_entity_feature_49,RELATED_TO_FEATURE,entity_vascular_disease_49,feature_diffuse_vascular_disease,,,,,,object
+rel_has_feature_3_antihypertensive_therapy,HAS_FEATURE,report_3,feature_antihypertensive_therapy,,,,,,
+rel_50,IS_AN_ANTIHYPERTENSIVE_MEDICAT,entity_micardis_plus_50,entity_therapy_51,is an antihypertensive medication,antihypertensive therapy,3,[MEDICATION] Micardis plus[/MEDICATION][DOSAGE] 80/12.5 mg 1 tablet[/DOSAGE],"Micardis plus is a combination of an ACE inhibitor and a diuretic, commonly used to treat hypertension.",
+rel_entity_feature_50,RELATED_TO_FEATURE,entity_micardis_plus_50,feature_antihypertensive_therapy,,,,,,subject
+rel_entity_feature_51,RELATED_TO_FEATURE,entity_therapy_51,feature_antihypertensive_therapy,,,,,,object
+rel_has_feature_3_cardiovascular_diseases,HAS_FEATURE,report_3,feature_cardiovascular_diseases,,,,,,
+rel_52,IS_A_CARDIOVASCULAR_DISEASE,entity_arterial_hypertension_52,entity_condition_53,is a cardiovascular disease,cardiovascular diseases,3,-[DETAILED_DESCRIPTION] Arterial[/DETAILED_DESCRIPTION][DISEASE_DISORDER] hypertension[/DISEASE_DISORDER],"Hypertension is classified as a cardiovascular disease, and its presence in the medical history supports this feature.",
+rel_entity_feature_52,RELATED_TO_FEATURE,entity_arterial_hypertension_52,feature_cardiovascular_diseases,,,,,,subject
+rel_entity_feature_53,RELATED_TO_FEATURE,entity_condition_53,feature_cardiovascular_diseases,,,,,,object
+rel_has_feature_4_active_neoplasia,HAS_FEATURE,report_4,feature_active_neoplasia,,,,,,
+rel_54,TREATED_WITH,entity_adenocarcinoma_of_the_rectum_54,entity_folfox_chemotherapy_55,treated with,active neoplasia,4,"in past medical history: [HISTORY] arterial [DISEASE_DISORDER] hypertension [DISEASE_DISORDER], in 2018[DETAILED_DESCRIPTION] subtotal [DETAILED_DESCRIPTION][THERAPEUTIC_PROCEDURE] colectomy [THERAPEUTIC_PROCEDURE] for[DISEASE_DISORDER] adenocarcinoma [DISEASE_DISORDER] of the[BIOLOGICAL_STRUCTURE] rectum [BIOLOGICAL_STRUCTURE] followed by a cycle of[MEDICATION] FOLFOX chemotherapy [MEDICATION]","The patient has a history of adenocarcinoma of the rectum, which was treated with FOLFOX chemotherapy in 2018. This indicates that the neoplasia is no longer active.",
+rel_entity_feature_54,RELATED_TO_FEATURE,entity_adenocarcinoma_of_the_rectum_54,feature_active_neoplasia,,,,,,subject
+rel_entity_feature_55,RELATED_TO_FEATURE,entity_folfox_chemotherapy_55,feature_active_neoplasia,,,,,,object
+rel_has_feature_4_anticoagulants_or_antiplatelet_drug_therapy,HAS_FEATURE,report_4,feature_anticoagulants_or_antiplatelet_drug_therapy,,,,,,
+rel_56,USED_TO_TREAT,entity_dabigatran_56,entity_af_57,used to treat,anticoagulants or antiplatelet drug therapy,4,[MEDICATION] dabigatran [MEDICATION] started.,"The patient is on dabigatran, an anticoagulant medication, which supports the presence of anticoagulants or antiplatelet drug therapy.",
+rel_entity_feature_56,RELATED_TO_FEATURE,entity_dabigatran_56,feature_anticoagulants_or_antiplatelet_drug_therapy,,,,,,subject
+rel_entity_feature_57,RELATED_TO_FEATURE,entity_af_57,feature_anticoagulants_or_antiplatelet_drug_therapy,,,,,,object
+rel_has_feature_4_poly_pharmacological_therapy,HAS_FEATURE,report_4,feature_poly_pharmacological_therapy,,,,,,
+rel_58,USED_TO_TREAT,entity_losartan_58,entity_hypertension_59,used to treat,poly-pharmacological therapy,4,[MEDICATION] losartan [MEDICATION][DOSAGE] 100 1 tablet [DOSAGE],"The patient is on multiple medications, including losartan for hypertension, indicating poly-pharmacological therapy.",
+rel_entity_feature_58,RELATED_TO_FEATURE,entity_losartan_58,feature_poly_pharmacological_therapy,,,,,,subject
+rel_entity_feature_59,RELATED_TO_FEATURE,entity_hypertension_59,feature_poly_pharmacological_therapy,,,,,,object
+rel_has_feature_4_antihypertensive_therapy,HAS_FEATURE,report_4,feature_antihypertensive_therapy,,,,,,
+rel_60,USED_TO_TREAT,entity_losartan_60,entity_hypertension_61,used to treat,antihypertensive therapy,4,[MEDICATION] losartan [MEDICATION][DOSAGE] 100 1 tablet [DOSAGE],"The patient is on losartan, an antihypertensive medication, which supports the presence of antihypertensive therapy.",
+rel_entity_feature_60,RELATED_TO_FEATURE,entity_losartan_60,feature_antihypertensive_therapy,,,,,,subject
+rel_entity_feature_61,RELATED_TO_FEATURE,entity_hypertension_61,feature_antihypertensive_therapy,,,,,,object
+rel_has_feature_4_cardiovascular_diseases,HAS_FEATURE,report_4,feature_cardiovascular_diseases,,,,,,
+rel_62,DIAGNOSED_WITH,entity_cad_62,entity_coronary_angiography_63,diagnosed with,cardiovascular diseases,4,[DIAGNOSTIC_PROCEDURE] coronary [DIAGNOSTIC_PROCEDURE][DIAGNOSTIC_PROCEDURE] angiogram [DIAGNOSTIC_PROCEDURE] procedure shows[DETAILED_DESCRIPTION] triple vessel [DETAILED_DESCRIPTION][DISEASE_DISORDER] CAD [DISEASE_DISORDER]:[SEVERITY] critical [SEVERITY][LAB_VALUE] diminished [LAB_VALUE][DIAGNOSTIC_PROCEDURE] DX [DIAGNOSTIC_PROCEDURE],"The patient has been diagnosed with coronary artery disease (CAD) through a coronary angiogram, indicating the presence of cardiovascular diseases.",
+rel_entity_feature_62,RELATED_TO_FEATURE,entity_cad_62,feature_cardiovascular_diseases,,,,,,subject
+rel_entity_feature_63,RELATED_TO_FEATURE,entity_coronary_angiography_63,feature_cardiovascular_diseases,,,,,,object
+rel_has_feature_4_heart_rate,HAS_FEATURE,report_4,feature_heart_rate,,,,,,
+rel_64,MEASURED_AT,entity_hr_64,entity_89_65,measured at,heart rate,4,[DIAGNOSTIC_PROCEDURE] HR [DIAGNOSTIC_PROCEDURE][LAB_VALUE] 89 [LAB_VALUE],"The patient's heart rate is measured at 89, which falls within the normal range of 60-100 beats per minute.",
+rel_entity_feature_64,RELATED_TO_FEATURE,entity_hr_64,feature_heart_rate,,,,,,subject
+rel_entity_feature_65,RELATED_TO_FEATURE,entity_89_65,feature_heart_rate,,,,,,object
+rel_has_feature_4_blood_pressure,HAS_FEATURE,report_4,feature_blood_pressure,,,,,,
+rel_66,MEASURED_AT,entity_bp_66,entity_160_90_mmhg_67,measured at,blood pressure,4,[DIAGNOSTIC_PROCEDURE] BP [DIAGNOSTIC_PROCEDURE][LAB_VALUE] 160/90 mmHg [LAB_VALUE],"The patient's blood pressure is measured at 160/90 mmHg, which indicates hypertension.",
+rel_entity_feature_66,RELATED_TO_FEATURE,entity_bp_66,feature_blood_pressure,,,,,,subject
+rel_entity_feature_67,RELATED_TO_FEATURE,entity_160_90_mmhg_67,feature_blood_pressure,,,,,,object
+rel_has_feature_4_spo2,HAS_FEATURE,report_4,feature_spo2,,,,,,
+rel_68,MEASURED_AT,entity_so2_68,entity_96__69,measured at,spo2,4,[DIAGNOSTIC_PROCEDURE] SO2 [DIAGNOSTIC_PROCEDURE]:[LAB_VALUE] 96% [LAB_VALUE],"The patient's oxygen saturation is measured at 96%, which falls within the normal range of 95-100%.",
+rel_entity_feature_68,RELATED_TO_FEATURE,entity_so2_68,feature_spo2,,,,,,subject
+rel_entity_feature_69,RELATED_TO_FEATURE,entity_96__69,feature_spo2,,,,,,object
+rel_has_feature_4_presence_of_dyspnea,HAS_FEATURE,report_4,feature_presence_of_dyspnea,,,,,,
+rel_70,PRESENT_WITH,entity_dyspnea_70,entity_exertion_71,present with,presence of dyspnea,4,[SIGN_SYMPTOM] dyspnea [SIGN_SYMPTOM] upon[DETAILED_DESCRIPTION] exertion [DETAILED_DESCRIPTION],"The patient reports experiencing dyspnea upon exertion, indicating the presence of dyspnea.",
+rel_entity_feature_70,RELATED_TO_FEATURE,entity_dyspnea_70,feature_presence_of_dyspnea,,,,,,subject
+rel_entity_feature_71,RELATED_TO_FEATURE,entity_exertion_71,feature_presence_of_dyspnea,,,,,,object
+rel_has_feature_4_ecg__any_abnormality,HAS_FEATURE,report_4,feature_ecg__any_abnormality,,,,,,
+rel_72,DIAGNOSED_WITH,entity_af_72,entity_cardiological_evaluation_73,diagnosed with,"ecg, any abnormality",4,"[SIGN_SYMPTOM] AF [SIGN_SYMPTOM],[MEDICATION] dabigatran [MEDICATION] started.","The patient has been diagnosed with atrial fibrillation (AF), which is an abnormality on the ECG.",
+rel_entity_feature_72,RELATED_TO_FEATURE,entity_af_72,feature_ecg__any_abnormality,,,,,,subject
+rel_entity_feature_73,RELATED_TO_FEATURE,entity_cardiological_evaluation_73,feature_ecg__any_abnormality,,,,,,object
+rel_has_feature_4_creatinine,HAS_FEATURE,report_4,feature_creatinine,,,,,,
+rel_74,MEASURED_AT,entity_creat_74,entity_1_6_mg_dl_75,measured at,creatinine,4,[LAB_VALUE] creat [LAB_VALUE][LAB_VALUE] 1.6 mg/dl [LAB_VALUE],The patient's creatinine level is measured at 1.6 mg/dl.,
+rel_entity_feature_74,RELATED_TO_FEATURE,entity_creat_74,feature_creatinine,,,,,,subject
+rel_entity_feature_75,RELATED_TO_FEATURE,entity_1_6_mg_dl_75,feature_creatinine,,,,,,object
+rel_has_feature_4_cardiac_ultrasound__any_abnormality,HAS_FEATURE,report_4,feature_cardiac_ultrasound__any_abnormality,,,,,,
+rel_76,DIAGNOSED_WITH,entity_pericardial_effusion_76,entity_echocardiogram_77,diagnosed with,"cardiac ultrasound, any abnormality",4,"[SIGN_SYMPTOM] moderate [SEVERITY][SIGN_SYMPTOM] pericardial effusion [SIGN_SYMPTOM], max[DISTANCE] 18 mm [DISTANCE] in[BIOLOGICAL_STRUCTURE] posterolateral site [BIOLOGICAL_STRUCTURE],[DETAILED_DESCRIPTION] organized [DETAILED_DESCRIPTION], no[SIGN_SYMPTOM] tamponade [SIGN_SYMPTOM].","The patient has a moderate pericardial effusion, which is an abnormality detected on the echocardiogram.",
+rel_entity_feature_76,RELATED_TO_FEATURE,entity_pericardial_effusion_76,feature_cardiac_ultrasound__any_abnormality,,,,,,subject
+rel_entity_feature_77,RELATED_TO_FEATURE,entity_echocardiogram_77,feature_cardiac_ultrasound__any_abnormality,,,,,,object
+rel_has_feature_7_level_of_consciousness,HAS_FEATURE,report_7,feature_level_of_consciousness,,,,,,
+rel_78,IS,entity_patient_78,entity_alert_79,is,level of consciousness,7,patient alert,"The patient is described as 'alert,' indicating a normal level of consciousness.",
+rel_entity_feature_78,RELATED_TO_FEATURE,entity_patient_78,feature_level_of_consciousness,,,,,,subject
+rel_entity_feature_79,RELATED_TO_FEATURE,entity_alert_79,feature_level_of_consciousness,,,,,,object
+rel_80,IS,entity_patient_80,entity_oriented_81,is,level of consciousness,7,oriented,"The patient is noted to be 'oriented,' further supporting the assessment of a normal level of consciousness.",
+rel_entity_feature_80,RELATED_TO_FEATURE,entity_patient_80,feature_level_of_consciousness,,,,,,subject
+rel_entity_feature_81,RELATED_TO_FEATURE,entity_oriented_81,feature_level_of_consciousness,,,,,,object
+rel_has_feature_7_body_temperature,HAS_FEATURE,report_7,feature_body_temperature,,,,,,
+rel_82,HAS,entity_patient_82,entity_no_fever_83,has,body temperature,7,no signs of fever,"There are no signs of fever, indicating that the patient's body temperature is within normal limits.",
+rel_entity_feature_82,RELATED_TO_FEATURE,entity_patient_82,feature_body_temperature,,,,,,subject
+rel_entity_feature_83,RELATED_TO_FEATURE,entity_no_fever_83,feature_body_temperature,,,,,,object
+rel_has_feature_7_heart_rate,HAS_FEATURE,report_7,feature_heart_rate,,,,,,
+rel_84,IS,entity_hr_84,entity_64_85,is,heart rate,7,HR 64,"The heart rate is recorded as '64,' which falls within the normal range for a resting adult.",
+rel_entity_feature_84,RELATED_TO_FEATURE,entity_hr_84,feature_heart_rate,,,,,,subject
+rel_entity_feature_85,RELATED_TO_FEATURE,entity_64_85,feature_heart_rate,,,,,,object
+rel_has_feature_7_blood_pressure,HAS_FEATURE,report_7,feature_blood_pressure,,,,,,
+rel_86,IS,entity_bp_86,entity_131_84_87,is,blood pressure,7,BP 131/84,"The blood pressure is recorded as '131/84,' which is within the normal range for a resting adult.",
+rel_entity_feature_86,RELATED_TO_FEATURE,entity_bp_86,feature_blood_pressure,,,,,,subject
+rel_entity_feature_87,RELATED_TO_FEATURE,entity_131_84_87,feature_blood_pressure,,,,,,object
+rel_has_feature_7_spo2,HAS_FEATURE,report_7,feature_spo2,,,,,,
+rel_88,IS,entity_spo2_88,entity_97__89,is,spo2,7,SpO2 97%,"The SpO2 level is recorded as '97%,' which is within the normal range for oxygen saturation.",
+rel_entity_feature_88,RELATED_TO_FEATURE,entity_spo2_88,feature_spo2,,,,,,subject
+rel_entity_feature_89,RELATED_TO_FEATURE,entity_97__89,feature_spo2,,,,,,object
+rel_has_feature_8_level_of_consciousness,HAS_FEATURE,report_8,feature_level_of_consciousness,,,,,,
+rel_90,IS_A_STATE_OF,entity_alert_90,entity_oriented_91,is a state of,level of consciousness,8,"Alert, oriented","The patient is described as 'alert' and 'oriented,' which indicates they are fully conscious.",
+rel_entity_feature_90,RELATED_TO_FEATURE,entity_alert_90,feature_level_of_consciousness,,,,,,subject
+rel_entity_feature_91,RELATED_TO_FEATURE,entity_oriented_91,feature_level_of_consciousness,,,,,,object
+rel_has_feature_8_respiratory_rate,HAS_FEATURE,report_8,feature_respiratory_rate,,,,,,
+rel_92,IS_A_RESPIRATORY_RATE_OF,entity_rf_92,entity_18_apm_93,is a respiratory rate of,respiratory rate,8,RF 18 apm,"The patient's respiratory rate is recorded as '18 apm,' which falls within the normal range, indicating eupnea.",
+rel_entity_feature_92,RELATED_TO_FEATURE,entity_rf_92,feature_respiratory_rate,,,,,,subject
+rel_entity_feature_93,RELATED_TO_FEATURE,entity_18_apm_93,feature_respiratory_rate,,,,,,object
+rel_has_feature_8_body_temperature,HAS_FEATURE,report_8,feature_body_temperature,,,,,,
+rel_94,IS_A_BODY_TEMPERATURE_OF,entity_temp_94,entity_36_8_95,is a body temperature of,body temperature,8,Temp 36.8,"The patient's body temperature is recorded as '36.8,' which falls within the normal range, indicating normothermia.",
+rel_entity_feature_94,RELATED_TO_FEATURE,entity_temp_94,feature_body_temperature,,,,,,subject
+rel_entity_feature_95,RELATED_TO_FEATURE,entity_36_8_95,feature_body_temperature,,,,,,object
+rel_has_feature_8_heart_rate,HAS_FEATURE,report_8,feature_heart_rate,,,,,,
+rel_96,IS_A_HEART_RATE_OF,entity_hr_96,entity_78r_bpm_97,is a heart rate of,heart rate,8,HR 78r bpm,"The patient's heart rate is recorded as '78r bpm,' which falls within the normal range, indicating normocardia.",
+rel_entity_feature_96,RELATED_TO_FEATURE,entity_hr_96,feature_heart_rate,,,,,,subject
+rel_entity_feature_97,RELATED_TO_FEATURE,entity_78r_bpm_97,feature_heart_rate,,,,,,object
+rel_has_feature_8_blood_pressure,HAS_FEATURE,report_8,feature_blood_pressure,,,,,,
+rel_98,IS_A_BLOOD_PRESSURE_OF,entity_bp_98,entity_150_80_mmhg_99,is a blood pressure of,blood pressure,8,BP 150/80 mmHg,"The patient's blood pressure is recorded as '150/80 mmHg,' which indicates hypertension.",
+rel_entity_feature_98,RELATED_TO_FEATURE,entity_bp_98,feature_blood_pressure,,,,,,subject
+rel_entity_feature_99,RELATED_TO_FEATURE,entity_150_80_mmhg_99,feature_blood_pressure,,,,,,object
+rel_has_feature_8_spo2,HAS_FEATURE,report_8,feature_spo2,,,,,,
+rel_100,IS_AN_OXYGEN_SATURATION_OF,entity_spo2_100,entity_96__101,is an oxygen saturation of,spo2,8,SpO2 96% on room air,"The patient's SpO2 is recorded as '96%' on room air, which aligns with the annotation.",
+rel_entity_feature_100,RELATED_TO_FEATURE,entity_spo2_100,feature_spo2,,,,,,subject
+rel_entity_feature_101,RELATED_TO_FEATURE,entity_96__101,feature_spo2,,,,,,object
+rel_has_feature_9_level_of_consciousness,HAS_FEATURE,report_9,feature_level_of_consciousness,,,,,,
+rel_102,IS_ORIENTED_TO,entity_patient_102,entity_time_place_103,is oriented to,level of consciousness,9,oriented to time/place,"The patient is described as alert and oriented to time and place, indicating a normal level of consciousness.",
+rel_entity_feature_102,RELATED_TO_FEATURE,entity_patient_102,feature_level_of_consciousness,,,,,,subject
+rel_entity_feature_103,RELATED_TO_FEATURE,entity_time_place_103,feature_level_of_consciousness,,,,,,object
+rel_has_feature_9_body_temperature,HAS_FEATURE,report_9,feature_body_temperature,,,,,,
+rel_104,IS,entity_body_temperature_104,entity_37_5_c_105,is,body temperature,9,T: 37.5°C,"The body temperature is recorded as 37.5°C, which falls within the normal range of 36.1°C to 37.8°C.",
+rel_entity_feature_104,RELATED_TO_FEATURE,entity_body_temperature_104,feature_body_temperature,,,,,,subject
+rel_entity_feature_105,RELATED_TO_FEATURE,entity_37_5_c_105,feature_body_temperature,,,,,,object
+rel_has_feature_9_heart_rate,HAS_FEATURE,report_9,feature_heart_rate,,,,,,
+rel_106,IS,entity_heart_rate_106,entity_tachycardic_107,is,heart rate,9,Cardiac examination: tachycardic,"The cardiac examination notes that the patient is tachycardic, indicating an elevated heart rate.",
+rel_entity_feature_106,RELATED_TO_FEATURE,entity_heart_rate_106,feature_heart_rate,,,,,,subject
+rel_entity_feature_107,RELATED_TO_FEATURE,entity_tachycardic_107,feature_heart_rate,,,,,,object
+rel_has_feature_9_blood_pressure,HAS_FEATURE,report_9,feature_blood_pressure,,,,,,
+rel_108,IS,entity_blood_pressure_108,entity_130_90_mmhg_109,is,blood pressure,9,BP: 130/90 mmHg,"The blood pressure is recorded as 130/90 mmHg, which falls within the normal range of 90-120/60-80 mmHg.",
+rel_entity_feature_108,RELATED_TO_FEATURE,entity_blood_pressure_108,feature_blood_pressure,,,,,,subject
+rel_entity_feature_109,RELATED_TO_FEATURE,entity_130_90_mmhg_109,feature_blood_pressure,,,,,,object
+rel_has_feature_9_spo2,HAS_FEATURE,report_9,feature_spo2,,,,,,
+rel_110,IS,entity_spo2_110,entity_97__111,is,spo2,9,SatO2: 97% on room air,"The SpO2 is recorded as 97% on room air, which falls within the normal range of 95-100%.",
+rel_entity_feature_110,RELATED_TO_FEATURE,entity_spo2_110,feature_spo2,,,,,,subject
+rel_entity_feature_111,RELATED_TO_FEATURE,entity_97__111,feature_spo2,,,,,,object
